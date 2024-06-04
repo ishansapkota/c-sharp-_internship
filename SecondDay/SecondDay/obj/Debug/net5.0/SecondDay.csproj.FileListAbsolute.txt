@@ -1,0 +1,16 @@
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.exe
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.deps.json
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.runtimeconfig.dev.json
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.dll
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\ref\SecondDay.dll
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\bin\Debug\net5.0\SecondDay.pdb
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.csprojAssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.dll
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\ref\SecondDay.dll
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.pdb
+C:\Users\PERCOIDIT\source\repos\SecondDay\SecondDay\obj\Debug\net5.0\SecondDay.genruntimeconfig.cache

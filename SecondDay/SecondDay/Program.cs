@@ -50,9 +50,6 @@ namespace SecondDay
             Console.WriteLine(basecls.name);
             Console.WriteLine(basecls.description);
             Console.WriteLine(basecls.hobby);
-
-
-
         }
     }
 
@@ -69,12 +66,16 @@ namespace SecondDay
             testOtherClass othercls = new testOtherClass();
             othercls.getInfo();*/
 
-            ConstructorExamples consteg = new ConstructorExamples(5000);
+            /*ConstructorExamples consteg = new ConstructorExamples(5000);
             Console.WriteLine(consteg.Add(consteg.allowance));
+            Console.WriteLine("Counter {0}", ConstructorExamples.getCount());*/
 
             //accessing private constructor with nested class 
             ConstructorExamples.NestedConstructorExamples nestedconsteg = new ConstructorExamples.NestedConstructorExamples();
             nestedconsteg.Test();
+
+            //for static method we should access it directly using class without the use of the object
+            Console.WriteLine("Counter {0}", ConstructorExamples.getCount());
 
 
 

@@ -2,7 +2,7 @@
 
 @{
 }
-
+@*
 <h1> ADD FOOTBALLERS </h1>
     <form method="post" action="Add" class="mt-4">
         <div class="form-group">
@@ -21,17 +21,17 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </form>*@
 
-@*
-<div class="form-body">
+
+<div class="form-body align-items-center">
     <div class="row">
         <div class="form-holder">
             <div class="form-content">
                 <div class="form-items">
                     <h3>FOOTBALLERS</h3>
                     <p>Fill in the data below.</p>
-                    <form class="requires-validation" novalidate>
+                    <form class="requires-validation" novalidate method="post" action="Add">
 
                         <div class="col-md-12">
                             <input class="form-control" type="text" placeholder="Full Name" required asp-for="Name">
@@ -44,20 +44,9 @@
                         </div>
 
                         <div class="col-md-12">
-                            <input class="form-control" type="date" placeholder="Club" asp-for="DoB">
+                            <input class="form-control mt-2" type="date" placeholder="Club" asp-for="DoB" >
 
                         </div>
-
-
-
-
-
-
-
-
-
-
-
 
                         <div class="form-button mt-3">
                             <button id="submit" type="submit" class="btn btn-primary">Add</button>
@@ -68,4 +57,5 @@
         </div>
     </div>
 </div>
-*@
+<script src="~/js/form.js" asp-append-version="true"></script>
+<link rel="stylesheet" href="~/css/form.css" />

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bj1hHEBO6SmyV11sIjQnvukTU5qq+ZeH09KY1u7KVel8F+I6l34qjtJmJd6CFa7YhySdpbUMpSF6tSe4qAeyLw==",
+  "dgSpecHash": "WTcrW3WFKrXaapJm/BLGAHWQ+MlEkEYQM67yn6AWVve/itx0oeA+DVJMsXgaKUDDoNLPVhO7THfY5p4d6WJVgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\CRUD.csproj",
+  "projectFilePath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PERCOIDIT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PERCOIDIT\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

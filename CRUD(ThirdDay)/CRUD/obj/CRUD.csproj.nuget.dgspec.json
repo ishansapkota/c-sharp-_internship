@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\CRUD.csproj": {}
+    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\CRUD.csproj": {
+    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\CRUD.csproj",
         "projectName": "CRUD",
-        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\CRUD.csproj",
+        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\CRUD.csproj",
         "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD\\CRUD\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD(ThirdDay)\\CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -32,7 +32,7 @@ namespace CRUD.Controllers
             return View();
         }
 
-
+        //These methods are declared asy
         [HttpPost]
         public async Task<IActionResult> Add(AddFootballerViewModel addFootballerDetails)
         {

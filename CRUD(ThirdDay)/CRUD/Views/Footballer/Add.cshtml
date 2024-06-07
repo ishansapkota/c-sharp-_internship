@@ -23,7 +23,12 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>*@
 
-
+@if (TempData["AlertMessage"]!= null)
+{
+    <div class="alert alert-success">
+        <strong>SUCCESS!</strong>@TempData["AlertMessage"]
+    </div>
+}
 <div class="form-body align-items-center">
     <div class="row">
         <div class="form-holder">

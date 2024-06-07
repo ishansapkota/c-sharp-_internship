@@ -1,0 +1,58 @@
+﻿@model CRUD2.Models.UpdateMoviesViewModel
+@{
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong>SUCCESS!</strong>@TempData["AlertMessage"]
+    </div>
+}
+
+
+<div class="form-body align-items-center">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content mb-5">
+                <div class="form-items">
+                    <h3>EDIT MOVIES</h3>
+                    <p>Update in the data below.</p>
+                    <form class="requires-validation" novalidate method="post" action="Update">
+                        
+                        <div class="col-md-12">
+                            <input class="form-control" type="text"  required asp-for="Id" readonly>
+
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" placeholder="Movie Name" required asp-for="MovieName">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" placeholder="Genre" asp-for="Genre">
+
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control mt-2" type="date" placeholder="Release Date" asp-for="ReleaseDate">
+
+                        </div>
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" placeholder="Actors and Actresses" asp-for="Actors">
+
+                        </div>
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-danger" asp-controller="Movie" asp-action="Delete">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/form.js" asp-append-version="true"></script>
+<link rel="stylesheet" href="~/css/form.css" />

@@ -46,6 +46,7 @@ namespace CRUD.Controllers
 
             await mvcDemoDbContext.FootballerDetails.AddAsync(footballer);
             await mvcDemoDbContext.SaveChangesAsync();
+            TempData["AlertMessage"] = "Movie Added to the Database Successfully";
             return RedirectToAction("Index");
         }
 
@@ -84,6 +85,7 @@ namespace CRUD.Controllers
                 footballer.DoB = updatefootballer.DoB;
 
                 await mvcDemoDbContext.SaveChangesAsync();
+                TempData["AlertMessage"] = "Movie Update to the Database Successfully";
 
                 return RedirectToAction("Index");
             }

@@ -46,8 +46,7 @@
               "RelativeToolTip": "CRUD\\Views\\Footballer\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T05:24:42.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T05:24:42.475Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "CRUD\\Startup.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:34:19.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:34:19.56Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "CRUD\\Data\\MVCDemoDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:11:38.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:11:38.661Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "CRUD\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T04:04:20.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:04:20.894Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "CRUD\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:04:01.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:04:01.214Z"
             }
           ]
         }

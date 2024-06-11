@@ -15,7 +15,7 @@ namespace CRUD2.Controllers
         }
 
         [HttpGet]
-          public IActionResult Add()
+          public IActionResult Add() 
         {
             return View("AddMovie");
         }
@@ -85,7 +85,7 @@ namespace CRUD2.Controllers
                 }
             return RedirectToAction("Index");
         }
-
+        
         public async Task<IActionResult> Delete(UpdateMoviesViewModel updateMovies)
         {
             var movie = await applicationDbContext.Movies.FindAsync(updateMovies.Id);

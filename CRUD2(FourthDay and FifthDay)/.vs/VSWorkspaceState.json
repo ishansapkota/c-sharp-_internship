@@ -2,7 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\CRUD2",
-    "\\CRUD2\\Controllers"
+    "\\CRUD2\\Controllers",
+    "\\CRUD2\\Models",
+    "\\CRUD2\\Views",
+    "\\CRUD2\\Views\\Home",
+    "\\CRUD2\\Views\\Movie",
+    "\\CRUD2\\Views\\Shared"
   ],
   "SelectedNode": "\\CRUD2\\Controllers\\MovieController.cs",
   "PreviewInSolutionExplorer": false

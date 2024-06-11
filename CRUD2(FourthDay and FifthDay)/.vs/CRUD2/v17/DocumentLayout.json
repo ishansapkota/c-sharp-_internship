@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\",
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday)\\crud2\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday)\\crud2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday)\\crud2\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday)\\crud2\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday)\\crud2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|c:\\users\\percoidit\\source\\repos\\crud2(fourthday and fifthday)\\crud2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80992067-B615-4D76-847B-B2DB8C8B4A0B}|CRUD2\\CRUD2.csproj|solutionrelative:crud2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,69 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUD2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUD2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:09:21.427Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD2\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Program.cs",
+              "RelativeToolTip": "CRUD2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:09:06.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "register.css",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\wwwroot\\css\\register.css",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\wwwroot\\css\\register.css",
               "RelativeDocumentMoniker": "CRUD2\\wwwroot\\css\\register.css",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\wwwroot\\css\\register.css",
               "RelativeToolTip": "CRUD2\\wwwroot\\css\\register.css",
               "ViewState": "AQIAAAoBAAAAAAAAAAAmwBIBAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-07T07:56:18.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T07:56:18.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CRUD2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Models\\User.cs",
+              "RelativeToolTip": "CRUD2\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:52:59.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CRUD2\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Models\\User.cs",
-              "RelativeToolTip": "CRUD2\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:52:59.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Views\\User\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Views\\User\\Register.cshtml",
               "RelativeDocumentMoniker": "CRUD2\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Views\\User\\Register.cshtml",
               "RelativeToolTip": "CRUD2\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADQAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T06:34:09.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T06:34:09.479Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CRUD2\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\UserController.cs",
               "RelativeToolTip": "CRUD2\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T06:27:10.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T06:27:10.178Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Controllers\\MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "CRUD2\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\Controllers\\MovieController.cs",
               "RelativeToolTip": "CRUD2\\Controllers\\MovieController.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAFsAAAAdAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwGQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T06:01:20.354Z",
               "EditorCaption": ""

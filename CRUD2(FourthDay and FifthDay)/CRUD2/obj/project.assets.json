@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\CRUD2.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
       "projectName": "CRUD2",
-      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\CRUD2.csproj",
+      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
       "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay)\\CRUD2\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",

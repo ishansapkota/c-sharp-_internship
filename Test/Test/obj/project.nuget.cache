@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B4tZ7wqwsl9NNTBgohRwpPtsGhM/11W0Lx0d1P9jZC6ghQjEZTEelLm26aXUO3TnMMCBW60H6nK2MODnTbFQmA==",
+  "dgSpecHash": "jAZHmDP1Rr8=",
   "success": true,
   "projectFilePath": "C:\\Users\\PERCOIDIT\\source\\repos\\Test\\Test\\FirstDay.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PERCOIDIT\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

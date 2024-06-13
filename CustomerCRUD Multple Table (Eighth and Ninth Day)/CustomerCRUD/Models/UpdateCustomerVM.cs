@@ -5,21 +5,24 @@ namespace CustomerCRUD.Models
     public class UpdateCustomerVM
     {
         [Key]
-        public int ID { get; set; }
+        public int CustomerID { get; set; }
 
         [Required]
-        public string Email { get; set; } = " ";
+        public string email { get; set; } = " ";
 
         [Required]
-        public string Name { get; set; } = "";
+        public string name { get; set; } = "";
 
         [Required]
-        public string Phone { get; set; } = "";
+        public string phone { get; set; } = "";
 
-        public string Address { get; set; } = "";
+        public string address { get; set; } = "";
 
         [Required]
-        public DateTime DoB { get; set; }
+        public DateTime doB { get; set; }
+
+
+        public int GoodsID { get; set; }
 
         [Required]
         public string GoodsName { get; set; } = " ";

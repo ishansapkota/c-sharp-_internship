@@ -94,7 +94,23 @@ namespace CustomerCRUD.Controllers
         {
 
             var customer = await applicationDBContext.CustomerGoods.Include(cg => cg.Customer).Include(cg => cg.Goods).FirstOrDefaultAsync(i => i.CustomerID == id);
-            return View(customer);
+            if (customer != null)
+
+            {
+                var updateobj = new UpdateCustomerVM()
+                {
+                    CustomerID = customer.CustomerID,
+                    email = customer.Customer.Email,
+                    name = customer.Customer.Name,
+                    phone = customer.Customer.Phone,
+                    address = customer.Customer.Address,
+                    doB= customer.Customer.DoB,
+                    GoodsName = customer.Goods.GoodsName
+                };
+                return View(updateobj);
+            }
+            return RedirectToAction("List");
+            
         }
 
 
@@ -102,10 +118,10 @@ namespace CustomerCRUD.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(CustomerGoods updatecustomer, int id)
         {
-            var customer = await applicationDBContext.CustomerGoods.Include(cg => cg.Customer).Include(cg => cg.Goods).FirstOrDefaultAsync(i => i.CustomerID==id);
+            var customer = await applicationDBContext.CustomerGoods.Include(cg => cg.Customer).Include(cg => cg.Goods).FirstOrDefaultAsync(i => i.CustomerID == id);
             if (customer != null)
             {
-                customer.Customer.Name= updatecustomer.Customer.Name;
+                customer.Customer.Name = updatecustomer.Customer.Name;
                 customer.Customer.Email = updatecustomer.Customer.Email;
                 customer.Customer.Address = updatecustomer.Customer.Address;
                 customer.Customer.Phone = updatecustomer.Customer.Phone;
@@ -126,7 +142,7 @@ namespace CustomerCRUD.Controllers
         {
             var customergoods = await applicationDBContext.CustomerGoods.FirstOrDefaultAsync(i => i.CustomerID == id);
             var customer = await applicationDBContext.Customers.FirstOrDefaultAsync(i => i.CustomerID == id);
-            if (customergoods != null && customer != null )
+            if (customergoods != null && customer != null)
             {
                 applicationDBContext.CustomerGoods.Remove(customergoods);
                 applicationDBContext.Customers.Remove(customer);
@@ -141,7 +157,7 @@ namespace CustomerCRUD.Controllers
 
         public IActionResult Details(int id)
         {
-            var customer = applicationDBContext.CustomerGoods.Include(cg =>cg.Customer).Include(cg => cg.Goods).FirstOrDefault(i => i.CustomerID == id);
+            var customer = applicationDBContext.CustomerGoods.Include(cg => cg.Customer).Include(cg => cg.Goods).FirstOrDefault(i => i.CustomerID == id);
             return View(customer);
         }
 

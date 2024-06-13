@@ -1,0 +1,36 @@
+﻿@model List<CustomerCRUD.Models.CustomerGoodsViewModel>
+@{
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Goods Purchased</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+
+                <td>@i.name</td>
+                <td>@i.email</td>
+                <td>@i.address</td>
+                <td>@i.phone</td>
+                <td>@i.doB.ToString("yyyy-MM-dd")</td>
+                <td>@i.GoodsName</td>
+                <td ><a href="Details/@i.CustomerID" class="btn btn-info p-1">View</a>
+                <a href="Update/@i.CustomerID" class="btn btn-warning p-1">Update</a>
+                <a href="Delete/@i.CustomerID" class="btn btn-danger p-1">Delete</a></td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>

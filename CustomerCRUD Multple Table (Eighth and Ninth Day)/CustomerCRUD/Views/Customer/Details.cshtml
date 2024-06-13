@@ -1,0 +1,36 @@
+﻿@model CustomerCRUD.Models.CustomerGoods
+
+@{
+}
+
+
+<h1>Customer Details</h1>
+
+<div class="mt-5 mb-5">
+  
+    <section>
+        <p><strong>Name: </strong> @Model.Customer.Name</p>
+    </section>
+
+    <section>
+        <p><strong>Email: </strong> @Model.Customer.Email</p>
+    </section>
+
+    <section>
+        <p><strong>Address: </strong> @Model.Customer.Address</p>
+    </section>
+
+    <section>
+        <p><strong>Phone: </strong> @Model.Customer.Phone</p>
+    </section>
+
+    <section>
+        <p><strong>Date of Birth: </strong> @Model.Customer.DoB.ToString("Y")</p>
+    </section>
+
+    <section>
+        <p><strong>Goods Purchased: </strong> @Model.Goods.GoodsName</p>
+    </section>
+</div>
+
+<a href="@Url.Action("List","Customer")" class=" btn btn-primary">Back to the List</a>

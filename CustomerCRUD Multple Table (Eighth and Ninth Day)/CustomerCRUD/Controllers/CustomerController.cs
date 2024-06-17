@@ -99,7 +99,7 @@ namespace CustomerCRUD.Controllers
             {
                 var updateobj = new UpdateCustomerVM()
                 {
-                    CustomerID = customer.CustomerID,
+                    CustomerID = customer.CustomerID, 
                     email = customer.Customer.Email,
                     name = customer.Customer.Name,
                     phone = customer.Customer.Phone,
@@ -109,7 +109,7 @@ namespace CustomerCRUD.Controllers
                 };
                 return View(updateobj);
             }
-            return RedirectToAction("List");
+            return RedirectToAction("List"); 
             
         }
 

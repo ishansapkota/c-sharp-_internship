@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\views\\goods\\addgoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\views\\goods\\addgoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\controllers\\goodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\controllers\\goodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\crud registration login\\crud registration login\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1747A8-C22E-4B11-808B-2DC1EB5532FD}|CRUD Registration Login\\CRUD Registration Login.csproj|solutionrelative:crud registration login\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CRUD Registration Login\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T11:16:17.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddGoods.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\Goods\\AddGoods.cshtml",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Views\\Goods\\AddGoods.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\Goods\\AddGoods.cshtml",
+              "RelativeToolTip": "CRUD Registration Login\\Views\\Goods\\AddGoods.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T11:11:03.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoodsController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Controllers\\GoodsController.cs",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Controllers\\GoodsController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Controllers\\GoodsController.cs",
+              "RelativeToolTip": "CRUD Registration Login\\Controllers\\GoodsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T11:03:30.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "CRUD Registration Login\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T10:21:54.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Program.cs",
+              "RelativeToolTip": "CRUD Registration Login\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T10:14:29.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Models\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "CRUD Registration Login\\Models\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T10:01:33.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRUD Registration Login\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T09:56:38.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "CRUD Registration Login\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T09:52:59.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CRUD Registration Login\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD Registration Login\\CRUD Registration Login\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CRUD Registration Login\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:39:32.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

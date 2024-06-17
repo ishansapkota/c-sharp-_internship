@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj": {}
+    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj": {
+    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
         "projectName": "CRUD2",
-        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
+        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD2(FourthDay and FifthDay)\\CRUD2\\CRUD2.csproj",
         "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\CRUD2(FourthDay and FifthDay)\\CRUD2\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CRUD2(FourthDay and FifthDay)\\CRUD2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -35,52 +35,22 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

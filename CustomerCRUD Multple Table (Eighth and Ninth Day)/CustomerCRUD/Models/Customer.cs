@@ -1,4 +1,5 @@
-﻿ using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CustomerCRUD.Models
@@ -9,7 +10,7 @@ namespace CustomerCRUD.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CustomerID { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter the email")]
         public string Email { get; set; } = " ";
 
         [Required]
@@ -18,12 +19,11 @@ namespace CustomerCRUD.Models
         [Required]
         public string Phone { get; set; } = "";
 
+        [BindProperty]
         public string Address { get; set; } = "";
 
         [Required]       
         public DateTime DoB { get; set; }
-
-        
 
     }
 }

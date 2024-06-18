@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\customercrud multple table (eighth and ninth day)\\customercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\customercrud multple table (eighth and ninth day)\\customercrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\customercrud multple table (eighth and ninth day)\\customercrud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC308CA-CD63-43EE-A669-079D6A1C78DF}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:10:46.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Program.cs",
+              "RelativeToolTip": "CustomerCRUD\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:26:46.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "CustomerCRUD\\Models\\Customer.cs",
@@ -46,23 +80,12 @@
               "RelativeToolTip": "CustomerCRUD\\Models\\Customer.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAxwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:51:15.13Z"
+              "WhenOpened": "2024-06-13T09:51:15.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CustomerAddVM.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\CustomerAddVM.cs",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\CustomerAddVM.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\CustomerAddVM.cs",
-              "RelativeToolTip": "CustomerCRUD\\Models\\CustomerAddVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:51:06.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UpdateCustomerVM.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\UpdateCustomerVM.cs",
               "RelativeDocumentMoniker": "CustomerCRUD\\Models\\UpdateCustomerVM.cs",
@@ -74,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Views\\Customer\\Update.cshtml",
               "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\Update.cshtml",
@@ -92,14 +115,26 @@
               "RelativeDocumentMoniker": "CustomerCRUD\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomerCRUD\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAIwIMAAAA+AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T04:31:13.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "CustomerAddVM.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\CustomerAddVM.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\CustomerAddVM.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\CustomerAddVM.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\CustomerAddVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:51:06.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CustomerGoodsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Models\\CustomerGoodsViewModel.cs",
               "RelativeDocumentMoniker": "CustomerCRUD\\Models\\CustomerGoodsViewModel.cs",

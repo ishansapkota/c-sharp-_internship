@@ -1,0 +1,24 @@
+﻿@model DataAccessLayer.Entities.Employee
+
+@{
+}
+
+<h1> ADD EMPLOYEES </h1>
+    <form method="post" action="Add" class="mt-4">
+        <div class="form-group">
+            <label for="" class="form-label">Name</label>
+            <input type="text" class="form-control" asp-for="Name">
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-label">Club</label>
+            <input type="text" class="form-control" asp-for="Address">
+        </div>
+
+        <div class="form-group">
+            <label for="" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" asp-for="DoB">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>

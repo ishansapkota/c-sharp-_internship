@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CRUD(Tenth and Eleventh Day).props" />
+</Project>

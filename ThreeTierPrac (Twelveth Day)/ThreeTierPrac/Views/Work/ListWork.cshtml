@@ -1,6 +1,6 @@
 ﻿@model List<DataAccessLayer.EntitiesOrModel.Work>
 
-<h1 class="mb-5">List of Works Done</h1>
+<h1 class="mb-5">List of Works Done During the Internship</h1>
 
 <table class="table ">
     <thead>
@@ -22,10 +22,10 @@
                 <td>@w.Day</td>
                 <td>@w.WorksDone</td>
                 <td>@w.ThingsLearnt</td>
-                <td><a href="@w.GitHubLink">@w.GitHubLink</a></td>
+                <td><a href="@w.GitHubLink">GitHub Repository Link</a></td>
                 <td><a href="ViewWork/@w.Day" class="btn btn-info">View</a></td>
-                <td><a href="UpdateWork/@w.Day" class="btn btn-info">Update</a></td>
-                <td><a href="DeleteWork/@w.Day" class="btn btn-info">Delete</a></td>
+                <td><a href="UpdateWork/@w.Day" class="btn btn-warning">Update</a></td>
+                <td><a href="DeleteWork/@w.Day" class="btn btn-danger">Delete</a></td>
             </tr>
         }
     </tbody>

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\threetierprac\\views\\work\\listwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|solutionrelative:threetierprac\\views\\work\\listwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\threetierprac\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|solutionrelative:threetierprac\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\threetierprac\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|solutionrelative:threetierprac\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06229DAA-25D3-4C41-B9A7-49AD775C5D01}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\dataaccesslayer\\repositories\\workoperationsimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06229DAA-25D3-4C41-B9A7-49AD775C5D01}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\workoperationsimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\threetierprac\\views\\work\\viewwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|solutionrelative:threetierprac\\views\\work\\viewwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\threetierprac\\views\\work\\updatework.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{845F7F82-4048-49E2-ADC5-DB5FF1F63A21}|ThreeTierPrac\\ThreeTierPrac.csproj|solutionrelative:threetierprac\\views\\work\\updatework.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D5901-3D77-4F35-8099-600E6941D426}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\businesslogiclayer\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4D5901-3D77-4F35-8099-600E6941D426}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06229DAA-25D3-4C41-B9A7-49AD775C5D01}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\dataaccesslayer\\repositories\\iworkoperationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06229DAA-25D3-4C41-B9A7-49AD775C5D01}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iworkoperationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D5901-3D77-4F35-8099-600E6941D426}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\threetierprac (twelveth day)\\businesslogiclayer\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4D5901-3D77-4F35-8099-600E6941D426}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThreeTierPrac\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThreeTierPrac\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T10:17:54.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\ViewWork.cshtml",
+              "RelativeDocumentMoniker": "ThreeTierPrac\\Views\\Work\\ViewWork.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\ViewWork.cshtml",
+              "RelativeToolTip": "ThreeTierPrac\\Views\\Work\\ViewWork.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:42:02.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\UpdateWork.cshtml",
+              "RelativeDocumentMoniker": "ThreeTierPrac\\Views\\Work\\UpdateWork.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\UpdateWork.cshtml",
+              "RelativeToolTip": "ThreeTierPrac\\Views\\Work\\UpdateWork.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T08:13:55.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\ListWork.cshtml",
+              "RelativeDocumentMoniker": "ThreeTierPrac\\Views\\Work\\ListWork.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Views\\Work\\ListWork.cshtml",
+              "RelativeToolTip": "ThreeTierPrac\\Views\\Work\\ListWork.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T08:13:37.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Controllers\\WorkController.cs",
+              "RelativeDocumentMoniker": "ThreeTierPrac\\Controllers\\WorkController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\ThreeTierPrac\\Controllers\\WorkController.cs",
+              "RelativeToolTip": "ThreeTierPrac\\Controllers\\WorkController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwCQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:33:49.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkOperationsImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\DataAccessLayer\\Repositories\\WorkOperationsImplementation.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\WorkOperationsImplementation.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\DataAccessLayer\\Repositories\\WorkOperationsImplementation.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\WorkOperationsImplementation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:07:18.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWorkOperationsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\DataAccessLayer\\Repositories\\IWorkOperationsRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IWorkOperationsRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\DataAccessLayer\\Repositories\\IWorkOperationsRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\IWorkOperationsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:07:12.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\BusinessLogicLayer\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\Service.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\BusinessLogicLayer\\Service\\Service.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\Service.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:57:42.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\BusinessLogicLayer\\Service\\IService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\IService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ThreeTierPrac (Twelveth Day)\\BusinessLogicLayer\\Service\\IService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:57:34.43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

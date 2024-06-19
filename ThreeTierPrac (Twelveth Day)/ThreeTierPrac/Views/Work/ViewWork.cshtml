@@ -1,0 +1,36 @@
+﻿@model DataAccessLayer.EntitiesOrModel.Work
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@{
+}
+
+
+<h1>Customer Details</h1>
+
+<div class="mt-5 mb-5">
+
+    <section>
+        <p><strong>Day: </strong> @Model.Day</p>
+    </section>
+  
+    <section>
+        <p><strong>Works Done: </strong> @Model.WorksDone</p>
+    </section>
+
+    <section>
+        <p><strong>Things Learnt on the day: </strong> @Model.ThingsLearnt</p>
+    </section>
+
+    <section>
+        <p><strong>GitHub Link: </strong> @Model.GitHubLink</p>
+    </section>
+
+</div>
+
+<a href="@Url.Action("ListWork","Work")" class=" btn btn-primary">Back to the List</a>

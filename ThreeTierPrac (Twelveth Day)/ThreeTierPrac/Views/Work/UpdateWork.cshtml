@@ -1,0 +1,26 @@
+﻿@model DataAccessLayer.EntitiesOrModel.Work
+
+<h1> UPDATE WORKS DONE </h1>
+<form method="post" action="UpdateWork" class="mt-4">
+    <div class="form-group">
+        <label for="" class="form-label">Day</label>
+        <input type="int" class="form-control" asp-for="Day">
+    </div>
+
+    <div class="form-group">
+        <label for="" class="form-label">Works Done</label>
+        <input type="text" class="form-control" asp-for="WorksDone">
+    </div>
+
+    <div class="form-group">
+        <label for="" class="form-label">Things Learnt</label>
+        <input type="text" class="form-control" asp-for="ThingsLearnt">
+    </div>
+
+    <div class="form-group">
+        <label for="" class="form-label">GitHub Link Of Your Work:</label>
+        <input type="text" class="form-control" asp-for="GitHubLink">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

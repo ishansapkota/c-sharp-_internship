@@ -1,0 +1,33 @@
+﻿@model List<DataAccessLayer.EntitiesOrModel.Work>
+
+<h1 class="mb-5">List of Works Done</h1>
+
+<table class="table ">
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Works Done</th>
+            <th>Things Learnt</th>
+            <th>GitHub Link</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var w in Model)
+        {
+            <tr>
+                <td>@w.Day</td>
+                <td>@w.WorksDone</td>
+                <td>@w.ThingsLearnt</td>
+                <td><a href="@w.GitHubLink">@w.GitHubLink</a></td>
+                <td><a href="ViewWork/@w.Day" class="btn btn-info">View</a></td>
+                <td><a href="UpdateWork/@w.Day" class="btn btn-info">Update</a></td>
+                <td><a href="DeleteWork/@w.Day" class="btn btn-info">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD(Tenth and Eleventh Day)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c201f8a9d73908ce1100976f87d880594813ddd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86a1fe5e06317de81a25adfe2c1c6ebdcd2669c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD(Tenth and Eleventh Day)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD(Tenth and Eleventh Day)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

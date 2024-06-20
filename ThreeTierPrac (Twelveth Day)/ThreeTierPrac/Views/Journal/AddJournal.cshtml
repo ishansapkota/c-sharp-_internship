@@ -1,0 +1,24 @@
+﻿@model DataAccessLayer.EntitiesOrModel.Journal
+
+@{
+}
+
+<h1> ADD JOURNAL</h1>
+<form method="post" action="AddJournal" class="mt-4">
+    <div class="form-group">
+        <label for="" class="form-label">Day</label>
+        <input type="int" class="form-control" asp-for="JournalID">
+    </div>
+
+    <div class="form-group">
+        <label for="" class="form-label">Experience</label>
+        <input type="text" class="form-control" asp-for="ExperienceTitle">
+    </div>
+
+    <div class="form-group">
+        <label for="" class="form-label">Description</label>
+        <input type="text" class="form-control" asp-for="ExperienceDescription">
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-5">Submit</button>
+</form>

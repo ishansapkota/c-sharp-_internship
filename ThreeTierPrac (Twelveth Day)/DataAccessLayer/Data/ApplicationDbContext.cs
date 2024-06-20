@@ -16,6 +16,6 @@ namespace DataAccessLayer.Data
         }
 
         public DbSet<Work> Works { get; set; }
-
+        public DbSet<Journal> Journals { get; set; }
     }
 }

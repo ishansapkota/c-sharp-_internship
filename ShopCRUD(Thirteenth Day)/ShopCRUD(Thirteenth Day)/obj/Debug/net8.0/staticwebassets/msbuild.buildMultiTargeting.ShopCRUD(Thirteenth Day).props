@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ShopCRUD(Thirteenth Day).props" />
+</Project>

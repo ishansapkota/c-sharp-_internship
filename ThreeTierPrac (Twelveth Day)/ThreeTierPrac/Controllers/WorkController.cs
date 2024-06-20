@@ -22,7 +22,7 @@ namespace ThreeTierPrac.Controllers
 
         [HttpPost]
         public IActionResult AddWork(Work work)
-        {
+        { 
             _service.CreateWorkData(work);
             return RedirectToAction("Index", "Home");
         }

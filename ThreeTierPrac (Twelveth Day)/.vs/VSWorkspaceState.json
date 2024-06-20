@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\ThreeTierPrac",
+    "\\ThreeTierPrac\\Controllers",
     "\\ThreeTierPrac\\Views",
+    "\\ThreeTierPrac\\Views\\Journal",
     "\\ThreeTierPrac\\Views\\Work"
   ],
-  "SelectedNode": "\\ThreeTierPrac\\Views\\Work\\ListWork.cshtml",
+  "SelectedNode": "\\ThreeTierPrac\\Controllers\\JournalController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,31 @@
+﻿@model List<DataAccessLayer.EntitiesOrModel.Journal>
+
+
+<h1 class="mb-5">List of Works Done During the Internship</h1>
+
+<table class="table ">
+    <thead>
+        <tr>
+            <th>Journal Title</th>
+            <th>Experience</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var w in Model)
+        {
+            <tr>
+                <td>@w.ExperienceTitle</td>
+                <td>@w.ExperienceDescription</td>
+                
+            @*     <td><a href="ViewWork/@w.JournalID" class="btn btn-info">View</a></td>
+                <td><a href="UpdateWork/@w.JournalID" class="btn btn-warning">Update</a></td>
+                <td><a href="DeleteWork/@w.JournalID" class="btn btn-danger">Delete</a></td>
+             *@</tr>
+        }
+    </tbody>
+
+</table>

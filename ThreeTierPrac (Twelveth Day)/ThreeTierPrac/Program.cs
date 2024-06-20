@@ -14,6 +14,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 builder.Services.AddScoped<IWorkOperationsRepository<Work>,WorkOperationsImplementation>();
 builder.Services.AddScoped<IService<Work>,Service<Work>>();
 
+builder.Services.AddScoped<IWorkOperationsRepository<Journal>, JournalEntryOperation>();
+builder.Services.AddScoped<IService<Journal>, JournalService>();
+
 
 
 var app = builder.Build();

@@ -1,0 +1,28 @@
+﻿@model DataAccessLayer.Entity.Shop
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Shop Detail </h1>
+
+<div class="mt-5 mb-5">
+
+
+
+    <section>
+        <p><strong>Shop Name: </strong> @Model.ShopName</p>
+    </section>
+
+    <section>
+        <p><strong>Shop Address: </strong> @Model.ShopAddress</p>
+    </section>
+
+    <section>
+        <p><strong>GitHub Link: </strong> <a href="@Model.GitHubLink">@Model.GitHubLink</a> </p>
+    </section>
+
+</div>
+
+<a href="@Url.Action("ListWork","Work")" class=" btn btn-primary">Back to the List</a>

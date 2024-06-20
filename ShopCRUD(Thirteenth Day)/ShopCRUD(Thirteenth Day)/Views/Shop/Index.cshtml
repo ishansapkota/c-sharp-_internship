@@ -1,0 +1,38 @@
+﻿@model List<DataAccessLayer.Entity.Shop>
+
+
+<h1 class="mb-5">List of Shops</h1>
+
+<table class="table ">
+    <thead>
+        <tr>
+            <th>Shop ID</th>
+            <th>Shop Name</th>
+            <th>Shop Address</th>
+            <th>Shop Category</th>
+            <th>Opening Time</th>
+            <th>Closing Time</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var w in Model)
+        {
+            <tr>
+                <td>@w.ShopID</td>
+                <td>@w.ShopName</td>
+                <td>@w.ShopAddress</td>
+                <td>@w.ShopCategory</td>
+                <td>@w.OpeningTime</td>
+                <td>@w.ClosingTime</td>
+                <td><a href="ViewWork/@w.ShopID" class="btn btn-info">View</a></td>
+                <td><a href="Shop/EditShop/@w.ShopID" class="btn btn-warning">Update</a></td>
+                <td><a href="Shop/DeleteShop/@w.ShopID" class="btn btn-danger">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -25,7 +25,8 @@ namespace DataAccessLayer.Repositories
 
         public void Update(Work w)
         {
-            _applicationDbContext.Entry(w).State = EntityState.Modified;
+            _applicationDbContext.Update(w);
+            /*_applicationDbContext.Entry(w).State = EntityState.Modified;*/
             _applicationDbContext.SaveChanges();
         }
 

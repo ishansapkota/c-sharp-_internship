@@ -21,6 +21,24 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("DataAccessLayer.EntitiesOrModel.Journal", b =>
+                {
+                    b.Property<int>("JournalID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ExperienceDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExperienceTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("JournalID");
+
+                    b.ToTable("Journals");
+                });
+
             modelBuilder.Entity("DataAccessLayer.EntitiesOrModel.Work", b =>
                 {
                     b.Property<int>("Day")

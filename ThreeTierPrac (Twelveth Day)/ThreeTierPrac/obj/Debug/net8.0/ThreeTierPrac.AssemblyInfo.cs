@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreeTierPrac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a5a5b9ed231d93df773e546d8b5627741d3e86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e82a4d582c6cda6e06459bf5569d2df71b37684")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreeTierPrac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreeTierPrac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

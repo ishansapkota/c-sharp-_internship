@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DataAccessLayer",
+    "\\DataAccessLayer\\Repositories",
     "\\ThreeTierPrac",
     "\\ThreeTierPrac\\Controllers",
     "\\ThreeTierPrac\\Views",
     "\\ThreeTierPrac\\Views\\Journal",
     "\\ThreeTierPrac\\Views\\Work"
   ],
-  "SelectedNode": "\\ThreeTierPrac\\Controllers\\JournalController.cs",
+  "SelectedNode": "\\DataAccessLayer\\Repositories\\WorkOperationsImplementation.cs",
   "PreviewInSolutionExplorer": false
 }

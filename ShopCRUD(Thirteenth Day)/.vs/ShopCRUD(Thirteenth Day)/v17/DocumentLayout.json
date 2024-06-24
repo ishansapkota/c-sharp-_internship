@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "ShopCRUD(Thirteenth Day)\\Views\\Shop\\Details.cshtml",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\ShopCRUD(Thirteenth Day)\\ShopCRUD(Thirteenth Day)\\Views\\Shop\\Details.cshtml",
               "RelativeToolTip": "ShopCRUD(Thirteenth Day)\\Views\\Shop\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T10:55:47.875Z",
               "EditorCaption": ""
@@ -121,7 +121,8 @@
               "RelativeToolTip": "BusinessLogicLayer(Services)\\Service\\ShopService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:38:07.164Z"
+              "WhenOpened": "2024-06-20T08:38:07.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,7 +134,8 @@
               "RelativeToolTip": "BusinessLogicLayer(Services)\\Service\\IService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:27:17.639Z"
+              "WhenOpened": "2024-06-20T08:27:17.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -158,7 +160,8 @@
               "RelativeToolTip": "DataAccessLayer\\Interface\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:53:51.358Z"
+              "WhenOpened": "2024-06-20T07:53:51.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -170,7 +173,8 @@
               "RelativeToolTip": "ShopCRUD(Thirteenth Day)\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:43:50.248Z"
+              "WhenOpened": "2024-06-20T07:43:50.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,7 +225,8 @@
               "RelativeToolTip": "ShopCRUD(Thirteenth Day)\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:48:08.852Z"
+              "WhenOpened": "2024-06-20T08:48:08.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -245,7 +250,8 @@
               "RelativeToolTip": "ShopCRUD(Thirteenth Day)\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T07:41:13.898Z"
+              "WhenOpened": "2024-06-20T07:41:13.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -257,7 +263,8 @@
               "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:31:23.774Z"
+              "WhenOpened": "2024-06-20T07:31:23.774Z",
+              "EditorCaption": ""
             }
           ]
         }

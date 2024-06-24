@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DapperEmployeeCRUD(Fifteenth Day).props" />
+</Project>

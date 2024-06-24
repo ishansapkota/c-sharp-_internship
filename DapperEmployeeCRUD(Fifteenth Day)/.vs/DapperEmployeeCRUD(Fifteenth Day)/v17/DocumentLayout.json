@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{044B2A4E-C348-4D81-8E56-5EDA897A5777}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\infrastructurelayer\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044B2A4E-C348-4D81-8E56-5EDA897A5777}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5833BAA5-D01C-4A26-8DDB-C167F34BCA39}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\applicationlayer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5833BAA5-D01C-4A26-8DDB-C167F34BCA39}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB93737B-906F-4B95-8F0C-C4DE9BE03640}|DapperEmployeeCRUD(Fifteenth Day)\\DapperEmployeeCRUD(Fifteenth Day).csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\dapperemployeecrud(fifteenth day)\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB93737B-906F-4B95-8F0C-C4DE9BE03640}|DapperEmployeeCRUD(Fifteenth Day)\\DapperEmployeeCRUD(Fifteenth Day).csproj|solutionrelative:dapperemployeecrud(fifteenth day)\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5833BAA5-D01C-4A26-8DDB-C167F34BCA39}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\applicationlayer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5833BAA5-D01C-4A26-8DDB-C167F34BCA39}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83A6765-11BD-4E59-800A-8DACDCA46401}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\domainlayer\\repo interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83A6765-11BD-4E59-800A-8DACDCA46401}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repo interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83A6765-11BD-4E59-800A-8DACDCA46401}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dapperemployeecrud(fifteenth day)\\domainlayer\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83A6765-11BD-4E59-800A-8DACDCA46401}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DapperEmployeeCRUD(Fifteenth Day)\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "DapperEmployeeCRUD(Fifteenth Day)\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DapperEmployeeCRUD(Fifteenth Day)\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "DapperEmployeeCRUD(Fifteenth Day)\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:19:21.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\ApplicationLayer\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\ApplicationLayer\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:07:45.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\InfrastructureLayer\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\InfrastructureLayer\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAEMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:51:25.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\ApplicationLayer\\Service Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Service Interface\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\ApplicationLayer\\Service Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Service Interface\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:06:16.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DomainLayer\\Repo Interface\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Repo Interface\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DomainLayer\\Repo Interface\\IEmployeeRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Repo Interface\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:48:34.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DomainLayer\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entity\\Employee.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperEmployeeCRUD(Fifteenth Day)\\DomainLayer\\Entity\\Employee.cs",
+              "RelativeToolTip": "DomainLayer\\Entity\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:39:31.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\appsettings.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).exe
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).deps.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).pdb
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets\msbuild.LoginSignupAPIusingJWT(Seventeenth day).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets\msbuild.build.LoginSignupAPIusingJWT(Seventeenth day).props
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LoginSignupAPIusingJWT(Seventeenth day).props
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LoginSignupAPIusingJWT(Seventeenth day).props
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\scopedcss\bundle\LoginSignupAPIusingJWT(Seventeenth day).styles.css
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSig.F66CB5FB.Up2Date
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\refint\LoginSignupAPIusingJWT(Seventeenth day).dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).pdb
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\LoginSignupAPIusingJWT(Seventeenth day).genruntimeconfig.cache
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\obj\Debug\net8.0\ref\LoginSignupAPIusingJWT(Seventeenth day).dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PERCOIDIT\source\repos\LoginSignupAPIusingJWT(Seventeenth day)\LoginSignupAPIusingJWT(Seventeenth day)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

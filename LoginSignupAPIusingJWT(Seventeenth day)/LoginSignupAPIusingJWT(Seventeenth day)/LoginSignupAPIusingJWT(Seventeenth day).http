@@ -1,0 +1,6 @@
+@LoginSignupAPIusingJWT_Seventeenth_day__HostAddress = http://localhost:5008
+
+GET {{LoginSignupAPIusingJWT_Seventeenth_day__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

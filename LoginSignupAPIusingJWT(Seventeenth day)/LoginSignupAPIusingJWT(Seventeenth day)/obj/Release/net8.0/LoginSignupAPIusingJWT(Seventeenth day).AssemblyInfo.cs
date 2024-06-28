@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginSignupAPIusingJWT(Seventeenth day)")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c00ad65b74ae591b858d33c2cf2807285d82340")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginSignupAPIusingJWT(Seventeenth day)")]

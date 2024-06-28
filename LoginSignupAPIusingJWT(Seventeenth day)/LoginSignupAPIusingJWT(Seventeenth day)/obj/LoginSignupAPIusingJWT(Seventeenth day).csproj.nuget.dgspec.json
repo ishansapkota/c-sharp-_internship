@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj": {}
+    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj": {
+    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj",
         "projectName": "LoginSignupAPIusingJWT(Seventeenth day)",
-        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj",
+        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day).csproj",
         "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\LoginSignupAPIusingJWT(Seventeenth day)\\LoginSignupAPIusingJWT(Seventeenth day)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[7.6.2, )"
@@ -53,6 +61,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

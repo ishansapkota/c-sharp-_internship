@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud\\infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud\\infrastructurelayer\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud\\domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355B92FB-FBC5-411E-87AF-594AFD73F444}|DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud\\dappermultipletablecrud\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355B92FB-FBC5-411E-87AF-594AFD73F444}|DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj|solutionrelative:dappermultipletablecrud\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:50:33.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\PostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:29:07.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:25:12.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthUserController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD\\Controllers\\AuthUserController.cs",
+              "RelativeDocumentMoniker": "DapperMultipleTableCRUD\\Controllers\\AuthUserController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD\\Controllers\\AuthUserController.cs",
+              "RelativeToolTip": "DapperMultipleTableCRUD\\Controllers\\AuthUserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:24:56.279Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

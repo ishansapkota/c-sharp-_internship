@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|c:\\users\\percoidit\\source\\repos\\automapperexample\\automapperexample\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|solutionrelative:automapperexample\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|c:\\users\\percoidit\\source\\repos\\automapperexample\\automapperexample\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|solutionrelative:automapperexample\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|c:\\users\\percoidit\\source\\repos\\automapperexample\\automapperexample\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FBB3E6-5B57-4456-8A10-0CF27B7FFB47}|AutoMapperExample\\AutoMapperExample.csproj|solutionrelative:automapperexample\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "AutoMapperExample\\Models\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Models\\UserDTO.cs",
+              "RelativeToolTip": "AutoMapperExample\\Models\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:35:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AutoMapperExample\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Models\\User.cs",
+              "RelativeToolTip": "AutoMapperExample\\Models\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:25:11.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AutoMapperExample\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\AutoMapperExample\\AutoMapperExample\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AutoMapperExample\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:23:22.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

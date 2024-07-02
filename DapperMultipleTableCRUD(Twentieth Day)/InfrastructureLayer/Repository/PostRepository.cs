@@ -13,7 +13,7 @@ namespace InfrastructureLayer.Repository
 {
     public class PostRepository : IPostRepository
     {
-        private readonly string _connectionstring;
+        /*private readonly string _connectionstring;
 
         public PostRepository(IConfiguration configuration)
         {
@@ -29,6 +29,10 @@ namespace InfrastructureLayer.Repository
 
                 });
             }
+        }*/
+        public void Add(PostDTO post)
+        {
+            throw new NotImplementedException();
         }
     }
 }

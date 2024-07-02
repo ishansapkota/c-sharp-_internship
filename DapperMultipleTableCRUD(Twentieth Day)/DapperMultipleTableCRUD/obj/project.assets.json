@@ -4320,11 +4320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj",
       "projectName": "DapperMultipleTableCRUD",
-      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj",
+      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj",
       "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DapperMultipleTableCRUD\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DapperMultipleTableCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4342,14 +4342,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\ApplicationLayer\\ApplicationLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\ApplicationLayer\\ApplicationLayer.csproj"
+            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\ApplicationLayer\\ApplicationLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\ApplicationLayer\\ApplicationLayer.csproj"
             },
-            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\DomainLayer\\DomainLayer.csproj"
+            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DomainLayer.csproj"
             },
-            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj"
+            "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\InfrastructureLayer\\InfrastructureLayer.csproj"
             }
           }
         }

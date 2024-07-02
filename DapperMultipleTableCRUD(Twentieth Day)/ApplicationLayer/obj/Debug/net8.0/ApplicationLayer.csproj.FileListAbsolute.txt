@@ -16,3 +16,21 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD\Appl
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD\ApplicationLayer\bin\Debug\net8.0\DomainLayer.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD\ApplicationLayer\bin\Debug\net8.0\DomainLayer.pdb
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD\ApplicationLayer\obj\Debug\net8.0\Applicat.033E422A.Up2Date
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.deps.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.sourcelink.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\Applicat.033E422A.Up2Date
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\refint\ApplicationLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.genruntimeconfig.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\DapperMultipleTableCRUD(Twentieth Day)\ApplicationLayer\obj\Debug\net8.0\ref\ApplicationLayer.dll

@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DapperMultipleTableCRUD",
+    "\\DapperMultipleTableCRUD\\Controllers",
+    "\\DomainLayer",
+    "\\DomainLayer\\Entity",
     "\\InfrastructureLayer",
     "\\InfrastructureLayer\\Repository"
   ],
-  "SelectedNode": "\\InfrastructureLayer\\Repository\\UserRepository.cs",
+  "SelectedNode": "\\DapperMultipleTableCRUD\\Controllers\\ProductController.cs",
   "PreviewInSolutionExplorer": false
 }

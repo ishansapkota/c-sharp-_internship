@@ -1,4 +1,5 @@
 ﻿using DomainLayer.DTO;
+using DomainLayer.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,13 @@ namespace ApplicationLayer.Service_Interface
     public interface IProductService
     {
         void AddProduct(ProductDTO product);
+
+        IEnumerable<ProductDTO> GetProduct();
+
+        ProductDTO GetProductById(int id);
+
+        void UpdateProduct(ProductDTO product);
+
+        void DeleteProduct(int id);
     }
 }

@@ -80,13 +80,13 @@ namespace DapperMultipleTableCRUD.Controllers
             }
         }
 
-        [HttpDelete("delete-product")]
+        [HttpDelete("delete-product/{id}")]
         public IActionResult ProductDelete(int id)
         {
             try
             {
                 iProductService.DeleteProduct(id);
-                return Ok(new { message = "Data has been deleted!" });
+                return Ok();
             }
 
             catch(Exception e)

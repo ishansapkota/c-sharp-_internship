@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{355B92FB-FBC5-411E-87AF-594AFD73F444}|DapperMultipleTableCRUD\\DapperMultipleTableCRUD.csproj|solutionrelative:dappermultipletablecrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\domainlayer\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\domainlayer\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\domainlayer\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\domainlayer\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\infrastructurelayer\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\infrastructurelayer\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17EC1921-98EC-41BB-B0A3-D178A34C7A13}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\dappermultipletablecrud(twentieth day)\\domainlayer\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FC3172-1A1D-4A40-8F6B-1902F845F569}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +48,7 @@
               "RelativeDocumentMoniker": "DapperMultipleTableCRUD\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DapperMultipleTableCRUD\\Controllers\\ProductController.cs",
               "RelativeToolTip": "DapperMultipleTableCRUD\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAqwE8AAAANAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwEcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T04:30:42.366Z",
               "IsPinned": true,
@@ -45,6 +57,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:43:32.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\Entity\\Product.cs",
+              "RelativeToolTip": "DomainLayer\\Entity\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:43:26.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DTO\\PostDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\PostDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DTO\\PostDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\PostDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:43:23.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\DomainLayer\\DataAccess\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DomainLayer\\DataAccess\\ApplicationDbContext.cs",
@@ -52,12 +100,11 @@
               "RelativeToolTip": "DomainLayer\\DataAccess\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T09:46:21.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T09:46:21.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\InfrastructureLayer\\Repository\\PostRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\PostRepository.cs",
@@ -65,21 +112,19 @@
               "RelativeToolTip": "InfrastructureLayer\\Repository\\PostRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T07:41:45.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T07:41:45.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\InfrastructureLayer\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\DapperMultipleTableCRUD(Twentieth Day)\\InfrastructureLayer\\Repository\\OrderRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T04:59:01.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T04:59:01.935Z"
             }
           ]
         }

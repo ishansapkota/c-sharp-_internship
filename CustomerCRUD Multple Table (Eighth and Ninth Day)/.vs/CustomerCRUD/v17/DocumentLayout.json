@@ -42,21 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T05:10:46.369Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -67,8 +54,7 @@
               "RelativeToolTip": "CustomerCRUD\\Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAgwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T04:26:46.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T04:26:46.155Z"
             },
             {
               "$type": "Document",
@@ -80,8 +66,7 @@
               "RelativeToolTip": "CustomerCRUD\\Models\\Customer.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAxwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:51:15.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T09:51:15.13Z"
             },
             {
               "$type": "Document",
@@ -115,10 +100,22 @@
               "RelativeDocumentMoniker": "CustomerCRUD\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomerCRUD\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABMAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAqwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T04:31:13.504Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CustomerCRUD Multple Table (Eighth and Ninth Day)\\CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "CustomerCRUD\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:10:46.369Z"
             },
             {
               "$type": "Document",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DapperMultipleTableCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f03aea79bc57b2e4bb443e8ce4d3afa4487bbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5861a8a676998ef4b5b015788933145708a19b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DapperMultipleTableCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DapperMultipleTableCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\bin\Debug\net8.0\DomainLayer.deps.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\bin\Debug\net8.0\DomainLayer.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\DomainLayer.genruntimeconfig.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll

@@ -53,7 +53,7 @@ namespace DapperMultipleTableCRUD.Controllers
         [HttpGet("list-product/{id}")]
         public IActionResult ProductGetById(int id)
         {
-            try
+            try  
             {
                 var data = iProductService.GetProductById(id);
                 return Ok(data);

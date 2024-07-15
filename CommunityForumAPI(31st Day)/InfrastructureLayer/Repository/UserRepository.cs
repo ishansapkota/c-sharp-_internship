@@ -20,14 +20,16 @@ namespace InfrastructureLayer.Repository
         {
             connectionstring = configuration.GetConnectionString("DefaultConnection");
         }
-        public Task RegisterAsync(UserDTO user)
+        public async Task RegisterAsync(UserDTO user)
         {
             HashPassword(user.Password, out byte[] PassSalt, out byte[] PassHash); 
             using (var connection = new SqlConnection(connectionstring))
             {
-                var authuser_table_query = "INSERT INTO Users(UserName,Email,PasswordHash,PasswordSalt) VALUES(@UserName,@Email,@PasswordHash,@PasswordSalt)";
+
+
+                var authuser_table_query = "INSERT INTO Users(UserName,Email,PasswordHash,PasswordSalt) OUTPUT INSERTED.Id VALUES(@UserName,@Email,@PasswordHash,@PasswordSalt)";
                 var userdetails_table_query = "INSERT INTO UserDetails(AuthUserId) VALUES(@AuthUserId)";
-                connection.ExecuteAsync(authuser_table_query, new
+                var authUserId = await connection.QuerySingleAsync<int>(authuser_table_query, new
                 {
                     @UserName = user.UserName,
                     @Email = user.Email,
@@ -35,20 +37,29 @@ namespace InfrastructureLayer.Repository
                     @PasswordSalt = PassSalt
                 });
 
-                connection.ExecuteAsync(userdetails_table_query, new
+                await connection.ExecuteAsync(userdetails_table_query, new
                 {
+                    @AuthUserId = authUserId
                 });
             }
         }
 
         private void HashPassword(string password, out byte[] passSalt, out byte[] passHash)
         {
-            using(var hmac = new HMACSHA3_512())
+            using (var hmac = new HMACSHA512())
             {
                 passSalt = hmac.Key;
                 passHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
-            }
+            };
+        }
 
+        public async Task UpdateAsync(EditUserDTO user)
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "UPDATE UserDetails SET AS FirstName=@FirstName,LastName=@LastName,@Address=Address,DoB=@DoB WHERE Id=@Id";
+                await connection.ExecuteAsync(query, user);
+            }
         }
 
     }

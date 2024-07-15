@@ -11,5 +11,7 @@ namespace DomainLayer.Repository_Interface
     {
 
         Task RegisterAsync(UserDTO user);
+
+        Task UpdateAsync(EditUserDTO user);
     }
 }

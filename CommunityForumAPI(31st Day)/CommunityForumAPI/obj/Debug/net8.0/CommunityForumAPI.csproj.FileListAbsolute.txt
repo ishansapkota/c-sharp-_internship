@@ -141,3 +141,7 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\obj\Debug\net8.0\CommunityForumAPI.pdb
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\obj\Debug\net8.0\CommunityForumAPI.genruntimeconfig.cache
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\obj\Debug\net8.0\ref\CommunityForumAPI.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\ApplicationLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\InfrastructureLayer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\InfrastructureLayer.pdb

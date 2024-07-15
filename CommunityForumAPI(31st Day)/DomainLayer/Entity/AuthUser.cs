@@ -20,7 +20,7 @@ namespace DomainLayer.Entity
 
         public byte[] PasswordHash { get; set; } = Array.Empty<byte>();
 
-        public string Roles { get; set; } = string.Empty;
+        public string? Roles { get; set; }
 
     }
 }

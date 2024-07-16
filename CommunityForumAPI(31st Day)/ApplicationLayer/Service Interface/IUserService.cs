@@ -11,5 +11,8 @@ namespace ApplicationLayer.Service_Interface
     {
         Task RegisterUserAsync(UserDTO user);
         Task UpdateUserAsync(EditUserDTO user);
+        Task<EditUserDTO> GetUserByIdAsync(int id);
+        /*Task<bool> LoginUserAsync(UserDTO user);*/
+        Task LoginUserAsync(UserDTO user);
     }
 }

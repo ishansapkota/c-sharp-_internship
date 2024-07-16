@@ -26,5 +26,21 @@ namespace ApplicationLayer.Service
         {
             await iUser.UpdateAsync(user);
         }
+
+        public async Task<EditUserDTO> GetUserByIdAsync(int id)
+        {
+            var data = await iUser.GetByIdAsync(id);
+            return data;
+        }
+        /*public async Task<bool> LoginUserAsync(UserDTO user)
+        {
+            var result = await iUser.LoginAsync(user);
+            return result;
+        }*/
+
+        public async Task LoginUserAsync(UserDTO user)
+        {
+            await iUser.LoginAsync(user);
+        }
     }
 }

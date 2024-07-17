@@ -4,6 +4,7 @@ using DomainLayer.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using InfrastructureLayer.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CommunityForumAPI.Controllers
 {
@@ -35,7 +36,7 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut,Authorize(Roles ="User")]
         public async Task<IActionResult> KYC(EditUserDTO user)
         {
             try

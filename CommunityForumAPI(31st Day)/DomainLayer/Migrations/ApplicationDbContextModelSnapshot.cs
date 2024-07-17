@@ -54,6 +54,35 @@ namespace DomainLayer.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("DomainLayer.Entity.Post", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AuthUserId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PostDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthUserId");
+
+                    b.ToTable("Posts");
+                });
+
             modelBuilder.Entity("DomainLayer.Entity.User", b =>
                 {
                     b.Property<int>("Id")
@@ -82,6 +111,17 @@ namespace DomainLayer.Migrations
                     b.HasIndex("AuthUserId");
 
                     b.ToTable("UserDetails");
+                });
+
+            modelBuilder.Entity("DomainLayer.Entity.Post", b =>
+                {
+                    b.HasOne("DomainLayer.Entity.AuthUser", "AuthUsers")
+                        .WithMany()
+                        .HasForeignKey("AuthUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AuthUsers");
                 });
 
             modelBuilder.Entity("DomainLayer.Entity.User", b =>

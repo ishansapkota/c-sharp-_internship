@@ -115,8 +115,12 @@ namespace InfrastructureLayer.Repository
         {
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Email,user.Email),
-                new Claim(ClaimTypes.Role,user.Roles)
+                /*new Claim(ClaimTypes.Email,user.Email)*/
+
+                new Claim(ClaimTypes.Email,user.Email), 
+                new Claim(ClaimTypes.Role,user.Roles),
+                new Claim(ClaimTypes.Name,user.UserName),
+                new Claim(ClaimTypes.SerialNumber,Convert.ToString(user.Id))
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("JWT:Token").Value));

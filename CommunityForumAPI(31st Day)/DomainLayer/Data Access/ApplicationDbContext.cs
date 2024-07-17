@@ -17,5 +17,6 @@ namespace DomainLayer.Data_Access
 
        public DbSet<AuthUser> Users { get; set; }
        public DbSet<User> UserDetails { get; set; }
+       public DbSet<Post>Posts { get; set; }
     }
 }

@@ -145,3 +145,7 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\ApplicationLayer.pdb
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\InfrastructureLayer.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\InfrastructureLayer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Scrutor.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

@@ -38,9 +38,10 @@ namespace ApplicationLayer.Service
             return result;
         }*/
 
-        public async Task LoginUserAsync(UserDTO user)
+        public async Task<string> LoginUserAsync(UserDTO user)
         {
-            await iUser.LoginAsync(user);
+            var result = await iUser.LoginAsync(user);
+            return result;
         }
     }
 }

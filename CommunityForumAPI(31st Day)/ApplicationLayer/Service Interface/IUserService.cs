@@ -13,6 +13,6 @@ namespace ApplicationLayer.Service_Interface
         Task UpdateUserAsync(EditUserDTO user);
         Task<EditUserDTO> GetUserByIdAsync(int id);
         /*Task<bool> LoginUserAsync(UserDTO user);*/
-        Task LoginUserAsync(UserDTO user);
+        Task<string> LoginUserAsync(UserDTO user);
     }
 }

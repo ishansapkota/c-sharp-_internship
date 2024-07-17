@@ -4,24 +4,30 @@ using DomainLayer.Entity;
 using DomainLayer.Repository_Interface;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace InfrastructureLayer.Repository
 {
     public class UserRepository:IUserRepository
     {
         private readonly string connectionstring;
+        private readonly IConfiguration configuration;
         public static UserDTO userOne = new UserDTO();
 
         public UserRepository(IConfiguration configuration)
         {
             connectionstring = configuration.GetConnectionString("DefaultConnection");
+            this.configuration = configuration;
         }
         public async Task RegisterAsync(UserDTO user)
         {
@@ -57,45 +63,75 @@ namespace InfrastructureLayer.Repository
             };
         }
 
-        /*public async Task<bool> LoginAsync(UserDTO user)
+        public async Task<string> LoginAsync(UserDTO user)
         {
             using (var connection = new SqlConnection(connectionstring))
             {
 
-                var query = "SELECT count(*) from Users WHERE Email=@Email";
-                var result = connection.ExecuteScalar<int>(query, user);
-                if (result>0)
+                var query = "SELECT count(*) from Users WHERE Email=@Email AND UserName=@UserName";
+                var result = connection.ExecuteScalar<bool>(query, user);
+                if (result)
                 {
-                    var querySecond = "SELECT * FROM Users WHERE Email=@Email";
-                    var data = await connection.QueryFirstOrDefaultAsync<User>(querySecond, userOne.Email);
-                    if (!CheckPassword(user.Password, data.AuthUsers.PasswordSalt, data.AuthUsers.PasswordHash))
+                    var querySecond = "SELECT * FROM Users WHERE Email=@Email AND UserName=@UserName";
+                    var data = await connection.QueryFirstOrDefaultAsync<AuthUser>(querySecond, new { @Email = user.Email,@UserName=user.UserName });
+                    if(data!=null)    
                     {
-                        return false;
+                        if (CheckPassword(user.Password, data.PasswordSalt, data.PasswordHash))
+                        {
+                            string token= CreateToken(data);
+                            return token;
+                        }
+                        return "Incorrect Password";
+                       }
+                    else
+                    {
+                        return "No value received!";
                     }
-                    return true;
                 }
                 else
                 {
-                    throw new Exception("User not found!");
+                    return "User not found";
                 }
             }
-
         }
-*/
-        public async Task LoginAsync(UserDTO user)
+
+
+        /* public async Task LoginAsync(UserDTO user)
+         {
+             HashPassword(user.Password, out byte[] PassSalt, out byte[] PassHash); 
+             using (var connection = new SqlConnection(connectionstring))
+             {
+                 var query = "SELECT * FROM Users WHERE Email=@Email";
+                 var data = await connection.QueryFirstOrDefaultAsync<User>(query, new
+                 {
+                     @Email = user.Email
+                 });
+                 CheckPassword(user.Password, data.AuthUsers.PasswordSalt, data.AuthUsers.PasswordHash);
+             }
+         }*/
+
+
+        private string CreateToken(AuthUser user)
         {
-            HashPassword(user.Password, out byte[] PassSalt, out byte[] PassHash); 
-            using (var connection = new SqlConnection(connectionstring))
+            List<Claim> claims = new List<Claim>
             {
-                var query = "SELECT * FROM Users WHERE Email=@Email";
-                var data = await connection.QueryFirstOrDefaultAsync<User>(query, new
-                {
-                    @Email = user.Email
-                });
-                CheckPassword(user.Password, data.AuthUsers.PasswordSalt, data.AuthUsers.PasswordHash);
-            }
-        }
+                new Claim(ClaimTypes.Email,user.Email),
+                new Claim(ClaimTypes.Role,user.Roles)
+            };
 
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("JWT:Token").Value));
+
+            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.Now.AddDays(1),
+                signingCredentials: cred);
+
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            return jwt;
+             
+        }
 
         private bool CheckPassword(string password, byte[] passSalt, byte[] passHash)
         {
@@ -105,6 +141,9 @@ namespace InfrastructureLayer.Repository
                 return computedPass.SequenceEqual(passHash);
             }
         }
+
+
+
 
         public async Task UpdateAsync(EditUserDTO user)
         {

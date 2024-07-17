@@ -16,7 +16,7 @@ namespace DomainLayer.Repository_Interface
 
         Task<EditUserDTO> GetByIdAsync(int id);
 
-        /*Task<bool> LoginAsync(UserDTO user);*/
-        Task LoginAsync(UserDTO user);
+        Task<string> LoginAsync(UserDTO user);
+        /*Task LoginAsync(UserDTO user);*/
     }
 }

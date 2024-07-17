@@ -65,13 +65,13 @@ namespace CommunityForumAPI.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("login")]
         public async Task<IActionResult> UserLogin(UserDTO user)
         {
             try
             {
-                await service.LoginUserAsync(user);
-                return Ok(new { message = "User has logged in." });
+                var result = await service.LoginUserAsync(user);
+                return Ok(new { message = $"{result}" });
             }
 
             catch (Exception e)

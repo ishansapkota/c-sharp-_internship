@@ -21,7 +21,7 @@ namespace CommunityForumAPI.Controllers
 
         
 
-        [HttpPost]
+        [HttpPost("register-user")]
         public async Task<IActionResult> Registration(UserDTO user)
         {
             try

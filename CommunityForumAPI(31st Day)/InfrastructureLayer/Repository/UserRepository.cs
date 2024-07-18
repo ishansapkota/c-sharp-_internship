@@ -34,8 +34,6 @@ namespace InfrastructureLayer.Repository
             HashPassword(user.Password, out byte[] PassSalt, out byte[] PassHash); 
             using (var connection = new SqlConnection(connectionstring))
             {
-
-
                 var authuser_table_query = "INSERT INTO Users(UserName,Email,PasswordHash,PasswordSalt,Roles) OUTPUT INSERTED.Id VALUES(@UserName,@Email,@PasswordHash,@PasswordSalt,@Roles)";
                 var userdetails_table_query = "INSERT INTO UserDetails(AuthUserId) VALUES(@AuthUserId)";
                 var authUserId = await connection.QuerySingleAsync<int>(authuser_table_query, new
@@ -94,7 +92,7 @@ namespace InfrastructureLayer.Repository
                 }
             }
         }
-
+                
 
         /* public async Task LoginAsync(UserDTO user)
          {
@@ -129,7 +127,7 @@ namespace InfrastructureLayer.Repository
 
             var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddDays(1),
+                expires: DateTime.Now.AddMinutes(1),
                 signingCredentials: cred);
 
             var jwt = new JwtSecurityTokenHandler().WriteToken(token);
@@ -145,9 +143,6 @@ namespace InfrastructureLayer.Repository
                 return computedPass.SequenceEqual(passHash);
             }
         }
-
-
-
 
         public async Task UpdateAsync(EditUserDTO user)
         {

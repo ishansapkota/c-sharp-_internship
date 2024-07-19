@@ -10,5 +10,6 @@ namespace ApplicationLayer.Service_Interface
     public interface IPostService
     {
         Task<string> AddPostAsync(PostDTO post, int id);
+        Task<IEnumerable<PostWithUserDTO>> GetAllPostAsync();
     }
 }

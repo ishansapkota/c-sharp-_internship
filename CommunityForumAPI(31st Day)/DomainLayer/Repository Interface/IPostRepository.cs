@@ -10,5 +10,7 @@ namespace DomainLayer.Repository_Interface
     public interface IPostRepository
     {
         Task<string> Add(PostDTO post,int id);
+
+        Task<IEnumerable<PostWithUserDTO>> GetAll();
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.Service
 {
-    public class PostService:IPostService
+    public class PostService : IPostService
     {
         private readonly IPostRepository iRepo;
 
@@ -21,6 +21,11 @@ namespace ApplicationLayer.Service
         public async Task<string> AddPostAsync(PostDTO post, int id)
         {
             return await iRepo.Add(post, id);
+        }
+
+        public async Task<IEnumerable<PostWithUserDTO>> GetAllPostAsync()
+        {
+            return await iRepo.GetAll();
         }
     }
 }

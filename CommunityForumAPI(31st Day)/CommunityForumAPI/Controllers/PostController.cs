@@ -32,6 +32,17 @@ namespace CommunityForumAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpGet("posts")]
+        public async Task<IEnumerable<PostWithUserDTO>> GetAllPostsAsync()
+        {
+            
+                var data = await iService.GetAllPostAsync();
+            return (IEnumerable<PostWithUserDTO>)Ok(data);
+            
+
+            
+        }
             
 
     }

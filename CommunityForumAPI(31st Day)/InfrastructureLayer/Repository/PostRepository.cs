@@ -34,5 +34,15 @@ namespace InfrastructureLayer.Repository
                 return "The Post has been Added.";
             }
         }
+
+        public async Task<IEnumerable<PostWithUserDTO>> GetAll()
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT p.PostTitle,p.PostDescription,u.UserName,u.Email,ud.FirstName,ud.LastName from Posts p JOIN Users u ON p.AuthUserId = u.Id JOIN UserDetails ud ON u.Id = ud.AuthUserId";
+                var data = await connection.QueryAsync<PostWithUserDTO>(query);
+                return data.ToList();
+            }
+        }
     }
 }

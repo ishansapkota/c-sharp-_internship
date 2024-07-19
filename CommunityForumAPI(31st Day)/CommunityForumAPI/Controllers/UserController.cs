@@ -19,8 +19,6 @@ namespace CommunityForumAPI.Controllers
             service = _service;
         }
 
-        
-
         [HttpPost("register-user")]
         public async Task<IActionResult> Registration(UserDTO user)
         {
@@ -72,7 +70,7 @@ namespace CommunityForumAPI.Controllers
             try
             {
                 var result = await service.LoginUserAsync(user);
-                return Ok(new { message = $"{result}" });
+                return Ok(new { result} );
             }
 
             catch (Exception e)

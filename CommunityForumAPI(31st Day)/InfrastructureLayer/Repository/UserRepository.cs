@@ -52,6 +52,23 @@ namespace InfrastructureLayer.Repository
             }
         }
 
+        public async Task RegisterAdminAsync(UserDTO user)
+        {
+            HashPassword(user.Password, out byte[] PassSalt, out byte[] PassHash);
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var authuser_table_query = "INSERT INTO Users(UserName,Email,PasswordHash,PasswordSalt,Roles) OUTPUT INSERTED.Id VALUES(@UserName,@Email,@PasswordHash,@PasswordSalt,@Roles)";
+                var authUserId = await connection.QuerySingleAsync<int>(authuser_table_query, new
+                {
+                    @UserName = user.UserName,
+                    @Email = user.Email,
+                    @PasswordHash = PassHash,
+                    @PasswordSalt = PassSalt,
+                    @Roles = "Admin"
+                });
+            }
+        }
+
         private void HashPassword(string password, out byte[] passSalt, out byte[] passHash)
         {
             using (var hmac = new HMACSHA512())
@@ -144,12 +161,19 @@ namespace InfrastructureLayer.Repository
             }
         }
 
-        public async Task UpdateAsync(EditUserDTO user)
+        public async Task UpdateAsync(EditUserDTO user, int id)
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "UPDATE UserDetails SET FirstName=@FirstName,LastName=@LastName,@Address=Address,DoB=@DoB WHERE AuthUserId=@AuthUserId";
-                await connection.ExecuteAsync(query, user);
+                var query = "UPDATE UserDetails SET FirstName=@FirstName,LastName=@LastName,Address=@Address,DoB=@DoB WHERE AuthUserId=@AuthUserId";
+                await connection.ExecuteAsync(query,new
+                {
+                    @FirstName = user.FirstName,
+                    @LastName = user.LastName,
+                    @Address = user.Address,
+                    @DoB = user.DoB,
+                    @AuthUserId = id
+                });
             }
         }
 

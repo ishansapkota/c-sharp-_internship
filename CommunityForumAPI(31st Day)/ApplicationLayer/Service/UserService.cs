@@ -21,10 +21,13 @@ namespace ApplicationLayer.Service
         {
             await iUser.RegisterAsync(user);
         }
-
-        public async Task UpdateUserAsync(EditUserDTO user)
+        public async Task AdminRegisterAsync(UserDTO user)
         {
-            await iUser.UpdateAsync(user);
+            await iUser.RegisterAdminAsync(user);
+        }
+        public async Task UpdateUserAsync(EditUserDTO user,int id)
+        {
+            await iUser.UpdateAsync(user,id);
         }
 
         public async Task<EditUserDTO> GetUserByIdAsync(int id)

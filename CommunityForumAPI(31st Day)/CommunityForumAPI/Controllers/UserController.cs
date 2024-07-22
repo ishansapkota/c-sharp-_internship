@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using InfrastructureLayer.Repository;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace CommunityForumAPI.Controllers
 {
@@ -34,13 +35,36 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
+        [HttpPost("register-admin")]
+        public async Task<IActionResult> RegistrationAdmin(UserDTO user)
+        {
+            try
+            {
+                await service.AdminRegisterAsync(user);
+                return Ok(new { message = "Admin has been registered." });
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+
         [HttpPut,Authorize(Roles ="User")]
         public async Task<IActionResult> KYC(EditUserDTO user)
         {
             try
             {
-                await service.UpdateUserAsync(user);
-                return Ok(new { message = "The data has been updated!"});
+                var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
+                if(id != null)
+                {
+                    await service.UpdateUserAsync(user, Convert.ToInt16(id));
+                    return Ok(new { message = "The data has been updated!" });
+                }
+                else
+                {
+                    return BadRequest(new { message = "Id not found" });
+                }
             }
             
             catch(Exception e)
@@ -49,12 +73,17 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> UserById(int id)
+        [HttpGet("user-detail"), Authorize(Roles = "User")]
+        public async Task<IActionResult> UserById()
         {
             try
             {
-                var data = await service.GetUserByIdAsync(id);
+                var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
+                if (id == null)
+                {
+                    return BadRequest(new { message = "Id not found" });
+                }
+                var data = await service.GetUserByIdAsync(Convert.ToInt16(id));
                 return Ok(new { message = data });
             }
             catch (Exception e)

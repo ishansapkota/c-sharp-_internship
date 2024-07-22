@@ -25,7 +25,20 @@ namespace ApplicationLayer.Service
 
         public async Task<IEnumerable<PostWithUserDTO>> GetAllPostAsync()
         {
-            return await iRepo.GetAll();
+            var data = await iRepo.GetAll();
+            return data;
+        }
+
+        public async Task<IEnumerable<PostWithUserDTO>> GetAllUnapprovedPostAsync()
+        {
+            var data = await iRepo.GetAllUnapproved();
+            return data;
+        }
+
+        public async Task ApprovePost(int id)
+        {
+            await iRepo.Approve(id);
+            
         }
     }
 }

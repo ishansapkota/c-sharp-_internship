@@ -12,6 +12,5 @@ namespace DomainLayer.DTO
         public string LastName { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
         public DateTime DoB { get; set; }
-        public int AuthUserId { get; set; }
     }
 }

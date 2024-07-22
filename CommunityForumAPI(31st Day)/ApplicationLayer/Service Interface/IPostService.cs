@@ -11,5 +11,9 @@ namespace ApplicationLayer.Service_Interface
     {
         Task<string> AddPostAsync(PostDTO post, int id);
         Task<IEnumerable<PostWithUserDTO>> GetAllPostAsync();
+
+        Task<IEnumerable<PostWithUserDTO>> GetAllUnapprovedPostAsync();
+
+        Task ApprovePost(int id);
     }
 }

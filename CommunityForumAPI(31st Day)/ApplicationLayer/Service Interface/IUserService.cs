@@ -10,7 +10,8 @@ namespace ApplicationLayer.Service_Interface
     public interface IUserService
     {
         Task RegisterUserAsync(UserDTO user);
-        Task UpdateUserAsync(EditUserDTO user);
+        Task AdminRegisterAsync(UserDTO user);
+        Task UpdateUserAsync(EditUserDTO user,int id);
         Task<EditUserDTO> GetUserByIdAsync(int id);
         /*Task<bool> LoginUserAsync(UserDTO user);*/
         Task<string> LoginUserAsync(UserDTO user);

@@ -12,7 +12,9 @@ namespace DomainLayer.Repository_Interface
 
         Task RegisterAsync(UserDTO user);
 
-        Task UpdateAsync(EditUserDTO user);
+        Task RegisterAdminAsync(UserDTO user);
+
+        Task UpdateAsync(EditUserDTO user,int id);
 
         Task<EditUserDTO> GetByIdAsync(int id);
 

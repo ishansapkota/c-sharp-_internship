@@ -3,6 +3,7 @@ using DomainLayer.DTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace CommunityForumAPI.Controllers
 {
@@ -17,14 +18,23 @@ namespace CommunityForumAPI.Controllers
             iService = _iService;
         }
 
-        [HttpPost("post/{id}"),Authorize(Roles ="User")]
+        [HttpPost("post/"),Authorize(Roles ="User")]
 
-        public async Task<IActionResult> PostAdd(PostDTO post,int id)
+        public async Task<IActionResult> PostAdd(PostDTO post)
         {
             try
             {
-                var response = await iService.AddPostAsync(post, id);
-                return Ok(new { message = $"{response}" });
+                var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
+                if (id == null)
+                {
+                    return Unauthorized("User Id is missing from token");
+                }
+                else
+                {
+                    var response = await iService.AddPostAsync(post, Convert.ToInt16(id));
+                    return Ok(new { message = $"{response}" });
+                }
+                
             }
 
             catch(Exception e)
@@ -34,16 +44,27 @@ namespace CommunityForumAPI.Controllers
         }
 
         [HttpGet("posts")]
-        public async Task<IEnumerable<PostWithUserDTO>> GetAllPostsAsync()
+        public async Task<IActionResult> GetAllPostsAsync()
         {
             
                 var data = await iService.GetAllPostAsync();
-            return (IEnumerable<PostWithUserDTO>)Ok(data);
-            
-
-            
+                return  Ok(data);
         }
-            
+
+        [HttpGet("unapproved-posts"),Authorize(Roles ="Admin")]
+        public async Task<IActionResult> GetAllUnapprovedPostsAsync()
+        {
+            var data = await iService.GetAllUnapprovedPostAsync();
+            return Ok(data);
+        }
+
+        [HttpPut("approve/{id}"), Authorize(Roles = "Admin")]
+        public async Task<IActionResult> ApprovePosts(int id)
+        {
+
+            await iService.ApprovePost(id);
+            return Ok();
+        }
 
     }
 }

@@ -7,40 +7,32 @@
       "RelativeMoniker": "D:0:0:{F2A8AFC2-E31C-46FE-8864-3BAEEB92D12F}|CommunityForumAPI\\CommunityForumAPI.csproj|solutionrelative:communityforumapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\infrastructurelayer\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\applicationlayer\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\applicationlayer\\service interface\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service interface\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\dto\\postwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\postwithuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\applicationlayer\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repository interface\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\applicationlayer\\service interface\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4AC608-26D7-45DF-84F7-A6709A8634F6}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\service interface\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A8AFC2-E31C-46FE-8864-3BAEEB92D12F}|CommunityForumAPI\\CommunityForumAPI.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\communityforumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A8AFC2-E31C-46FE-8864-3BAEEB92D12F}|CommunityForumAPI\\CommunityForumAPI.csproj|solutionrelative:communityforumapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,63 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\PostRepository.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\PostRepository.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Repository\\PostRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCkAAAC9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:26:43.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "PostWithUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\PostWithUserDTO.cs",
               "RelativeDocumentMoniker": "DomainLayer\\DTO\\PostWithUserDTO.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\PostWithUserDTO.cs",
               "RelativeToolTip": "DomainLayer\\DTO\\PostWithUserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:18:39.358Z",
+              "WhenOpened": "2024-07-22T11:01:07.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service\\PostService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Service\\PostService.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service\\PostService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Service\\PostService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAoAAAA",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T09:59:35.262Z",
+              "WhenOpened": "2024-07-22T10:54:15.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service\\PostService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Service\\PostService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service\\PostService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Service\\PostService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:46:01.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IPostService.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service Interface\\IPostService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Service Interface\\IPostService.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\ApplicationLayer\\Service Interface\\IPostService.cs",
               "RelativeToolTip": "ApplicationLayer\\Service Interface\\IPostService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T09:59:08.474Z",
+              "WhenOpened": "2024-07-22T09:45:37.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\PostRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:41:52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Repository Interface\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:41:32.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Data Access\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Data Access\\ApplicationDbContext.cs",
@@ -119,65 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Repository Interface\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Repository Interface\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Repository Interface\\IPostRepository.cs",
-              "RelativeToolTip": "DomainLayer\\Repository Interface\\IPostRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T09:44:03.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:43:06.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\CommunityForumAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CommunityForumAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\CommunityForumAPI\\Program.cs",
-              "RelativeToolTip": "CommunityForumAPI\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T09:46:48.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PostDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\PostDTO.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\PostDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\DTO\\PostDTO.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\PostDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:58:24.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\CommunityForumAPI\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "CommunityForumAPI\\Controllers\\PostController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\CommunityForumAPI\\Controllers\\PostController.cs",
               "RelativeToolTip": "CommunityForumAPI\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAMAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAIAwwD4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T10:10:24.985Z",
               "EditorCaption": ""

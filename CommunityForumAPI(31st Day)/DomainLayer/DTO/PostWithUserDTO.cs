@@ -9,6 +9,8 @@ namespace DomainLayer.DTO
 {
     public  class PostWithUserDTO
     {
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
         [JsonPropertyName("posttitle")]
         public string PostTitle { get; set; } = string.Empty;
 

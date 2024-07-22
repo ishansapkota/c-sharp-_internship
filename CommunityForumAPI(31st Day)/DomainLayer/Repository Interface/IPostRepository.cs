@@ -12,5 +12,10 @@ namespace DomainLayer.Repository_Interface
         Task<string> Add(PostDTO post,int id);
 
         Task<IEnumerable<PostWithUserDTO>> GetAll();
+
+        Task<IEnumerable<PostWithUserDTO>> GetAllUnapproved();
+
+        Task Approve(int id);
+
     }
 }

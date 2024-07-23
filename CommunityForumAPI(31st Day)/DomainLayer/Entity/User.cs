@@ -19,7 +19,7 @@ namespace DomainLayer.Entity
 
         public string? Address { get; set; } = string.Empty;
         
-        public DateTime? DoB { get; set; }
+        public string? DoB { get; set; }
 
         [ForeignKey("AuthUserId")]
         public AuthUser AuthUsers { get; set; }

@@ -17,5 +17,9 @@ namespace DomainLayer.Repository_Interface
 
         Task Approve(int id);
 
+        Task Delete(int id);
+
+        Task<IEnumerable<PostWithUserDTO>> Retrieve(int id);
+
     }
 }

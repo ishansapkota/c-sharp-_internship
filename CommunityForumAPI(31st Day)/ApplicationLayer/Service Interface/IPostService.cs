@@ -15,5 +15,9 @@ namespace ApplicationLayer.Service_Interface
         Task<IEnumerable<PostWithUserDTO>> GetAllUnapprovedPostAsync();
 
         Task ApprovePost(int id);
+
+        Task DeletePost(int id);
+
+        Task<IEnumerable<PostWithUserDTO>> RetrievePostByUser(int id);
     }
 }

@@ -58,7 +58,7 @@ namespace CommunityForumAPI.Controllers
             return Ok(data);
         }
 
-        [HttpPut("approve/{id}"), Authorize(Roles = "Admin")]
+        [HttpGet("approve/{id}"), Authorize(Roles = "Admin")]
         public async Task<IActionResult> ApprovePosts(int id)
         {
 
@@ -66,5 +66,19 @@ namespace CommunityForumAPI.Controllers
             return Ok();
         }
 
+        [HttpGet("delete-post/{id}"), Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeletePosts(int id)
+        {
+            await iService.DeletePost(id);
+            return Ok();
+        }
+
+        [HttpGet("user-post"),Authorize(Roles ="User")]
+        public async Task<IActionResult> RetrieveUserPosts()
+        {
+            var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
+            var data = await iService.RetrievePostByUser(Convert.ToInt16(id));
+            return Ok(data);
+        }
     }
 }

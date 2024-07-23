@@ -84,7 +84,7 @@ namespace CommunityForumAPI.Controllers
                     return BadRequest(new { message = "Id not found" });
                 }
                 var data = await service.GetUserByIdAsync(Convert.ToInt16(id));
-                return Ok(new { message = data });
+                return Ok( data );
             }
             catch (Exception e)
             {
@@ -99,7 +99,7 @@ namespace CommunityForumAPI.Controllers
             try
             {
                 var result = await service.LoginUserAsync(user);
-                return Ok(new { result} );
+                return Ok(new { result } );
             }
 
             catch (Exception e)

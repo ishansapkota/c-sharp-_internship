@@ -68,5 +68,32 @@ namespace InfrastructureLayer.Repository
                 
             }
         }
+
+        public async Task Delete(int id)
+        {
+            using(var connection = new SqlConnection(connectionstring))
+            {
+                var query = "DELETE FROM Posts WHERE Id=@Id";
+                await connection.ExecuteAsync(query, new
+                {
+                    @Id = id
+                });
+            }
+        }
+
+
+        public async Task<IEnumerable<PostWithUserDTO>> Retrieve(int id)
+        {
+            using(var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT u.Email,u.UserName,p.PostTitle,p.Id,p.PostDescription,ud.FirstName,ud.LastName FROM Posts p JOIN Users u ON p.AuthUserId=u.Id JOIN UserDetails ud ON u.Id=ud.AuthUserId WHERE u.Id=@Id";
+                var data = await connection.QueryAsync<PostWithUserDTO>(query, new
+                {
+                    @Id = id
+                });
+
+                return data.ToList();
+            }
+        }
     }
 }

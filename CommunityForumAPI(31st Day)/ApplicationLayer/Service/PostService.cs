@@ -40,5 +40,15 @@ namespace ApplicationLayer.Service
             await iRepo.Approve(id);
             
         }
+
+        public async Task DeletePost(int id)
+        {
+            await iRepo.Delete(id);
+        }
+
+        public async Task<IEnumerable<PostWithUserDTO>> RetrievePostByUser(int id)
+        {
+           return await iRepo.Retrieve(id);
+        }
     }
 }

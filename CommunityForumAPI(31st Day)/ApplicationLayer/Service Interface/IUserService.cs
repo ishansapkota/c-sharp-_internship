@@ -15,5 +15,7 @@ namespace ApplicationLayer.Service_Interface
         Task<EditUserDTO> GetUserByIdAsync(int id);
         /*Task<bool> LoginUserAsync(UserDTO user);*/
         Task<string> LoginUserAsync(UserDTO user);
+
+        Task<IEnumerable<EditUserDTO>> GetAllUsersAsync();
     }
 }

@@ -144,7 +144,7 @@ namespace InfrastructureLayer.Repository
 
             var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(1),
+                expires: DateTime.Now.AddMinutes(10),
                 signingCredentials: cred);
 
             var jwt = new JwtSecurityTokenHandler().WriteToken(token);
@@ -181,7 +181,7 @@ namespace InfrastructureLayer.Repository
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "SELECT * FROM UserDetails WHERE AuthUserId=@Id";
+                var query = "SELECT ud.FirstName,ud.LastName,ud.Address,u.Email FROM UserDetails ud JOIN Users u ON ud.AuthUserId=u.Id WHERE AuthUserId=@Id";
                 var data = await connection.QueryFirstOrDefaultAsync<EditUserDTO>(query, new
                 {
                     @Id = id
@@ -195,6 +195,17 @@ namespace InfrastructureLayer.Repository
                     throw new Exception("User not found!");
                 }
 
+            }
+        }
+
+    
+        public async Task<IEnumerable<EditUserDTO>> GetAllAsync()
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT ud.FirstName,ud.LastName,ud.Address,ud.DoB,u.email FROM UserDetails ud JOIN Users u ON ud.AuthUserId=u.Id";
+                var data = await connection.QueryAsync<EditUserDTO>(query);
+                return data.ToList();
             }
         }
     }

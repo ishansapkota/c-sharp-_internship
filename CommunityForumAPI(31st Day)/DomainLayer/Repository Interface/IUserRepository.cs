@@ -20,5 +20,7 @@ namespace DomainLayer.Repository_Interface
 
         Task<string> LoginAsync(UserDTO user);
         /*Task LoginAsync(UserDTO user);*/
+
+        Task<IEnumerable<EditUserDTO>> GetAllAsync();
     }
 }

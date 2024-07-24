@@ -46,5 +46,12 @@ namespace ApplicationLayer.Service
             var result = await iUser.LoginAsync(user);
             return result;
         }
+
+        public async Task<IEnumerable<EditUserDTO>> GetAllUsersAsync()
+        {
+
+            var result = await iUser.GetAllAsync();
+            return result;
+        }
     }
 }

@@ -109,6 +109,20 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
+        [HttpGet,Authorize(Roles ="Admin")]
+        public async Task<IActionResult> GetAllUserInfo()
+        {
+            try
+            {
+                var users = await service.GetAllUsersAsync();
+                return Ok(users);
+            }
+            catch(Exception e) 
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         /*[HttpPost]
         public async Task<IActionResult> UserLogin(UserDTO user)
         {

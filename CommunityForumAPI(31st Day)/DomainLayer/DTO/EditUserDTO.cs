@@ -17,5 +17,8 @@ namespace DomainLayer.DTO
         public string Address { get; set; } = string.Empty;
         [JsonPropertyName("dob")]
         public string DoB { get; set; }
+
+        [JsonPropertyName("email")]
+        public string Email { get; set; }
     }
 }

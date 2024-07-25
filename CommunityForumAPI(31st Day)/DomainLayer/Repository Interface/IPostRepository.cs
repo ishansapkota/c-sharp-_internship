@@ -21,5 +21,6 @@ namespace DomainLayer.Repository_Interface
 
         Task<IEnumerable<PostWithUserDTO>> Retrieve(int id);
 
+        Task<PostWithUserDTO> RetrieveSingle(int id);
     }
 }

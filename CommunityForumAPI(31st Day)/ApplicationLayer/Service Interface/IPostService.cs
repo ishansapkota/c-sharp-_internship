@@ -19,5 +19,9 @@ namespace ApplicationLayer.Service_Interface
         Task DeletePost(int id);
 
         Task<IEnumerable<PostWithUserDTO>> RetrievePostByUser(int id);
+
+        Task<PostWithUserDTO> RetrievePostByPostId(int id);
+
+        
     }
 }

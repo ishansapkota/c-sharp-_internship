@@ -18,5 +18,8 @@ namespace DomainLayer.Data_Access
        public DbSet<AuthUser> Users { get; set; }
        public DbSet<User> UserDetails { get; set; }
        public DbSet<Post>Posts { get; set; }
+       public DbSet<Comment>Comments { get; set; }
+       public DbSet<CommentPostUser>CommentPostUsers { get; set; }
+
     }
 }

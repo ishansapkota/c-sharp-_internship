@@ -95,5 +95,19 @@ namespace InfrastructureLayer.Repository
                 return data.ToList();
             }
         }
+
+        public async Task<PostWithUserDTO> RetrieveSingle(int id)
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT u.Email,u.UserName,p.PostTitle,p.Id,p.PostDescription,ud.FirstName,ud.LastName FROM Posts p JOIN Users u ON p.AuthUserId=u.Id JOIN UserDetails ud ON u.Id=ud.AuthUserId WHERE p.Id=@Id";
+                var data = await connection.QueryFirstOrDefaultAsync<PostWithUserDTO>(query, new
+                {
+                    @Id = id
+                });
+                return data;
+            }
+        }
+
     }
 }

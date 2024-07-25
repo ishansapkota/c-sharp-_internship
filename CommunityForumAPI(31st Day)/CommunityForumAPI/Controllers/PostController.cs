@@ -18,7 +18,7 @@ namespace CommunityForumAPI.Controllers
             iService = _iService;
         }
 
-        [HttpPost("post/"),Authorize(Roles ="User")]
+        [HttpPost("post/"), Authorize(Roles = "User")]
 
         public async Task<IActionResult> PostAdd(PostDTO post)
         {
@@ -34,10 +34,10 @@ namespace CommunityForumAPI.Controllers
                     var response = await iService.AddPostAsync(post, Convert.ToInt16(id));
                     return Ok(new { message = $"{response}" });
                 }
-                
+
             }
 
-            catch(Exception e)
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
@@ -46,12 +46,12 @@ namespace CommunityForumAPI.Controllers
         [HttpGet("posts")]
         public async Task<IActionResult> GetAllPostsAsync()
         {
-            
-                var data = await iService.GetAllPostAsync();
-                return  Ok(data);
+
+            var data = await iService.GetAllPostAsync();
+            return Ok(data);
         }
 
-        [HttpGet("unapproved-posts"),Authorize(Roles ="Admin")]
+        [HttpGet("unapproved-posts"), Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllUnapprovedPostsAsync()
         {
             var data = await iService.GetAllUnapprovedPostAsync();
@@ -73,12 +73,28 @@ namespace CommunityForumAPI.Controllers
             return Ok();
         }
 
-        [HttpGet("user-post"),Authorize(Roles ="User")]
+        [HttpGet("user-post"), Authorize(Roles = "User")]
         public async Task<IActionResult> RetrieveUserPosts()
         {
             var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
             var data = await iService.RetrievePostByUser(Convert.ToInt16(id));
             return Ok(data);
         }
+
+        [HttpGet("post/{id}")]
+        public async Task<IActionResult> RetrieveSinglePost(int id)
+        {
+            try
+            {
+                var data = await iService.RetrievePostByPostId(id);
+                return Ok(data);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
     }
 }
+

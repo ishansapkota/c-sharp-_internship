@@ -50,5 +50,11 @@ namespace ApplicationLayer.Service
         {
            return await iRepo.Retrieve(id);
         }
+
+        public async Task<PostWithUserDTO> RetrievePostByPostId(int id)
+        {
+            return await iRepo.RetrieveSingle(id);
+        }
+
     }
 }

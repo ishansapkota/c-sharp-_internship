@@ -1,0 +1,38 @@
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\appsettings.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\FHIR API.exe
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\FHIR API.deps.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\FHIR API.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\FHIR API.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\FHIR API.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Fhir.Metrics.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Hl7.Fhir.Base.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Hl7.Fhir.Conformance.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Hl7.Fhir.R4.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.sourcelink.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets\msbuild.FHIR API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets\msbuild.build.FHIR API.props
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FHIR API.props
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FHIR API.props
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\scopedcss\bundle\FHIR API.styles.css
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.csproj.Up2Date
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\refint\FHIR API.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\FHIR API.genruntimeconfig.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\FHIR API\FHIR API\obj\Debug\net8.0\ref\FHIR API.dll

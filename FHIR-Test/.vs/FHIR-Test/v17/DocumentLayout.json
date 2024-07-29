@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR-Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70CB15A0-FDEF-4EF9-BC20-2E4E358DC190}|FHIR-Test\\FHIR-Test.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\fhir-test\\fhir-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CB15A0-FDEF-4EF9-BC20-2E4E358DC190}|FHIR-Test\\FHIR-Test.csproj|solutionrelative:fhir-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR-Test\\FHIR-Test\\Program.cs",
+              "RelativeDocumentMoniker": "FHIR-Test\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR-Test\\FHIR-Test\\Program.cs",
+              "RelativeToolTip": "FHIR-Test\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:12:35.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

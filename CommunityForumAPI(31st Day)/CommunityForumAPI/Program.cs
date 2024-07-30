@@ -57,6 +57,9 @@ builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<ICommentService, CommentService>();
 
+builder.Services.AddScoped<INewsRepository, NewsRepository>();
+builder.Services.AddScoped<INewsService,NewsService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

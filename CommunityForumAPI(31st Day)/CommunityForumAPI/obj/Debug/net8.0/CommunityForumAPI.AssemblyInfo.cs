@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea73954e248be5490316bda61c5d1ec610b87741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a4082db9959ac6baaf083ef977a0757ae321e7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

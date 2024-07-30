@@ -208,5 +208,13 @@ namespace InfrastructureLayer.Repository
                 return data.ToList();
             }
         }
+
+     /*   public async Task<IEnumerable<EditUserDTO>> GetAllUsersAsync()
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT "
+            }
+        }*/
     }
 }

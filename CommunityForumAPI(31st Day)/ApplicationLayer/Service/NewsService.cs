@@ -28,5 +28,10 @@ namespace ApplicationLayer.Service
             var news = await iRepo.GetAllAsync();
             return news;
         }
+
+        public async Task DeleteNewsAsync(int id)
+        {
+            await iRepo.Delete(id);
+        }
     }
 }

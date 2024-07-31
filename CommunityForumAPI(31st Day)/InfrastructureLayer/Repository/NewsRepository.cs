@@ -38,5 +38,17 @@ namespace InfrastructureLayer.Repository
                 return news.ToList();
             }
         }
+
+        public async Task Delete(int id)
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "DELETE FROM News WHERE Id=@Id";
+                await connection.ExecuteAsync(query, new
+                {
+                    @Id = id
+                });
+            }
+        }
     }
 }

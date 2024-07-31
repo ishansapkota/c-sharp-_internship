@@ -56,5 +56,10 @@ namespace ApplicationLayer.Service
             return await iRepo.RetrieveSingle(id);
         }
 
+        public async Task DeletePostByUser(int id,int userId)
+        {
+            await iRepo.DeletePostAsync(id,userId);
+        }
+
     }
 }

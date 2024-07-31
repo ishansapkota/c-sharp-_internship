@@ -14,5 +14,7 @@ namespace ApplicationLayer.Service_Interface
         Task<IEnumerable<CommentWithUserandPostDTO>> GetCommentsByUserAsync(int userId);
 
         Task<IEnumerable<CommentWithUserandPostDTO>> GetCommentsByPostAsync(int postId);
+
+        Task DeleteCommentsByUserAsync(int id, int userId);
     }
 }

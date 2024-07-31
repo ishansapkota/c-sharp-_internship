@@ -21,6 +21,8 @@ namespace DomainLayer.Data_Access
        public DbSet<Comment>Comments { get; set; }
        public DbSet<CommentPostUser>CommentPostUsers { get; set; }
        public DbSet<News>News { get; set; }
+       public DbSet<Team>Teams { get; set; }
+       
 
     }
 }

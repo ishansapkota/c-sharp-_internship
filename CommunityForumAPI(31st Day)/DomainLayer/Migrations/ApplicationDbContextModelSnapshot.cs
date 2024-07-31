@@ -142,6 +142,26 @@ namespace DomainLayer.Migrations
                     b.ToTable("Posts");
                 });
 
+            modelBuilder.Entity("DomainLayer.Entity.Team", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Points")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TeamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teams");
+                });
+
             modelBuilder.Entity("DomainLayer.Entity.User", b =>
                 {
                     b.Property<int>("Id")

@@ -13,5 +13,7 @@ namespace ApplicationLayer.Service_Interface
         Task AddNewsAsync(NewsDTO news);
 
         Task<IEnumerable<NewsDTO>> GetAllNewsAsync();
+
+        Task DeleteNewsAsync(int id);
     }
 }

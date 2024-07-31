@@ -46,5 +46,20 @@ namespace CommunityForumAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpDelete("delete-news/{id}"), Authorize(Roles ="Admin")]
+        public async Task<IActionResult> DeleteNews(int id)
+        {
+            try
+            {
+                await iService.DeleteNewsAsync(id);
+                return Ok(new { message = "The news has been deleted" });
+            }
+
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }

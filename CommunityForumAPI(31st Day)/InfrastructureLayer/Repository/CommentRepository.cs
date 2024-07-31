@@ -41,7 +41,7 @@ namespace InfrastructureLayer.Repository
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "SELECT ud.FirstName,ud.LastName,u.Email,u.UserName,c.CommentMessage,cpu.PostId,p.PostTitle,p.PostDescription FROM CommentPostUsers cpu JOIN UserDetails ud ON cpu.UserId=ud.AuthUserId JOIN Users u ON cpu.UserId=u.Id JOIN Comments c ON cpu.CommentId = c.Id JOIN Posts p ON cpu.PostId=p.Id WHERE UserId=@Id";
+                var query = "SELECT ud.FirstName,ud.LastName,u.Email,u.UserName,c.CommentMessage,cpu.CommentId,cpu.PostId,p.PostTitle,p.PostDescription FROM CommentPostUsers cpu JOIN UserDetails ud ON cpu.UserId=ud.AuthUserId JOIN Users u ON cpu.UserId=u.Id JOIN Comments c ON cpu.CommentId = c.Id JOIN Posts p ON cpu.PostId=p.Id WHERE UserId=@Id";
                 var data = await connection.QueryAsync<CommentWithUserandPostDTO>(query, new
                 {
                     @Id = userId
@@ -54,12 +54,30 @@ namespace InfrastructureLayer.Repository
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "SELECT ud.FirstName,ud.LastName,u.Email,u.UserName,c.CommentMessage FROM CommentPostUsers cpu JOIN UserDetails ud ON cpu.UserId=ud.AuthUserId JOIN Users u ON cpu.UserId=u.Id JOIN Comments c ON cpu.CommentId=c.Id WHERE PostId=@postId";
+                var query = "SELECT ud.FirstName,ud.LastName,u.Email,u.UserName,c.CommentMessage,cpu.CommentId FROM CommentPostUsers cpu JOIN UserDetails ud ON cpu.UserId=ud.AuthUserId JOIN Users u ON cpu.UserId=u.Id JOIN Comments c ON cpu.CommentId=c.Id WHERE PostId=@postId";
                 var data = await connection.QueryAsync<CommentWithUserandPostDTO>(query, new
                 {
                     @postId = postId
                 });
                 return data;
+            }
+        }
+
+        public async Task DeleteCommentsAsync(int id,int userId)
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var queryFirst = "DELETE FROM Comments WHERE Id = @Id";
+                var querySecond = "DELETE FROM CommentPostUsers WHERE CommentId=@Id AND UserId=@UserId";
+                await connection.ExecuteAsync(queryFirst, new
+                {
+                    @Id = id
+                });
+                await connection.ExecuteAsync(querySecond, new
+                {
+                    @Id = id,
+                    @UserId = userId
+                });
             }
         }
     }

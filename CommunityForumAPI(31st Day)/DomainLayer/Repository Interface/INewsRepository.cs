@@ -12,5 +12,7 @@ namespace DomainLayer.Repository_Interface
         Task AddAsync(NewsDTO news);
 
         Task<IEnumerable<NewsDTO>> GetAllAsync();
+
+        Task Delete(int id);
     }
 }

@@ -95,6 +95,22 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
+        [HttpGet("post-delete/{id}"),Authorize(Roles ="User")]
+        public async Task <IActionResult> DeletePostOfUser(int id)
+        {
+            try
+            {
+                var userId = User.FindFirstValue(ClaimTypes.SerialNumber);
+                await iService.DeletePostByUser(id,Convert.ToInt16(userId));
+                return Ok(new { message = "Your post has been successfully deleted." });
+            }
+
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
     }
 }
 

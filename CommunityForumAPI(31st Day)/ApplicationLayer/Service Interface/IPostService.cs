@@ -22,6 +22,7 @@ namespace ApplicationLayer.Service_Interface
 
         Task<PostWithUserDTO> RetrievePostByPostId(int id);
 
-        
+        Task DeletePostByUser(int id, int userId);
+
     }
 }

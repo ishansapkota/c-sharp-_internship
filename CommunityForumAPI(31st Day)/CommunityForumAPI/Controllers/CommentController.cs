@@ -57,5 +57,21 @@ namespace CommunityForumAPI.Controllers
             var data = await iService.GetCommentsByPostAsync(postId);
             return Ok(data);
         }
+
+        [HttpGet("comments-delete/{id}"),Authorize(Roles ="User")]
+        public async Task<IActionResult> DeleteCommentsByUserAsync(int id)
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.SerialNumber).Value;
+                await iService.DeleteCommentsByUserAsync(id, Convert.ToInt16(userId));
+                return Ok(new { message = "Your comment has been deleted." });
+            }
+
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }

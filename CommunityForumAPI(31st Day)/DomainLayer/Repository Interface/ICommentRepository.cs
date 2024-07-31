@@ -15,6 +15,8 @@ namespace DomainLayer.Repository_Interface
         Task<IEnumerable<CommentWithUserandPostDTO>> GetByUserAsync(int userId);
 
         Task<IEnumerable<CommentWithUserandPostDTO>> GetByPostAsync(int  postId);
+
+        Task DeleteCommentsAsync(int id,int userId);
        
 
     }

@@ -35,5 +35,10 @@ namespace ApplicationLayer.Service
             return data;
         }
 
+        public async Task DeleteCommentsByUserAsync(int id, int userId)
+        {
+            await iRepo.DeleteCommentsAsync(id, userId);
+        }
+
     }
 }

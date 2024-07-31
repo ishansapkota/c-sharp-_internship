@@ -20,9 +20,9 @@ namespace InfrastructureLayer.Repository
         {
             connectionstring = _configuration.GetConnectionString("DefaultConnection");
         }
-        public async Task<string> Add(PostDTO post,int id)
+        public async Task<string> Add(PostDTO post, int id)
         {
-            using(var connection = new SqlConnection(connectionstring))
+            using (var connection = new SqlConnection(connectionstring))
             {
                 var query = "INSERT INTO Posts(PostTitle,PostDescription,AuthUserId) VALUES (@PostTitle,@PostDescription,@AuthUserId)";
                 await connection.ExecuteAsync(query, new
@@ -65,13 +65,13 @@ namespace InfrastructureLayer.Repository
                 {
                     @Id = id
                 });
-                
+
             }
         }
 
         public async Task Delete(int id)
         {
-            using(var connection = new SqlConnection(connectionstring))
+            using (var connection = new SqlConnection(connectionstring))
             {
                 var query = "DELETE FROM Posts WHERE Id=@Id";
                 await connection.ExecuteAsync(query, new
@@ -84,7 +84,7 @@ namespace InfrastructureLayer.Repository
 
         public async Task<IEnumerable<PostWithUserDTO>> Retrieve(int id)
         {
-            using(var connection = new SqlConnection(connectionstring))
+            using (var connection = new SqlConnection(connectionstring))
             {
                 var query = "SELECT u.Email,u.UserName,p.PostTitle,p.Id,p.PostDescription,ud.FirstName,ud.LastName FROM Posts p JOIN Users u ON p.AuthUserId=u.Id JOIN UserDetails ud ON u.Id=ud.AuthUserId WHERE u.Id=@Id";
                 var data = await connection.QueryAsync<PostWithUserDTO>(query, new
@@ -106,6 +106,26 @@ namespace InfrastructureLayer.Repository
                     @Id = id
                 });
                 return data;
+            }
+        }
+
+        public async Task DeletePostAsync(int id,int userId)
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var queryFirst = "DELETE FROM Posts WHERE Id = @Id AND AuthUserId=@UserId";
+                var querySecond = "DELETE FROM CommentPostUsers WHERE PostId= @Id AND UserId=@UserId";
+                await connection.ExecuteAsync(queryFirst, new
+                {
+                    @Id = id,
+                    @UserId = userId
+                });
+                await connection.ExecuteAsync(querySecond, new
+                {
+                    @Id = id,
+                    @UserId = userId
+                });
+               
             }
         }
 

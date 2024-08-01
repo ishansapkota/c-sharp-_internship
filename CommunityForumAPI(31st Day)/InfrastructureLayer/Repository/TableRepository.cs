@@ -57,7 +57,10 @@ namespace InfrastructureLayer.Repository
             using (var connection = new SqlConnection(connectionstring))
             {
                 var query = "SELECT * FROM Teams WHERE Id=@Id";
-                var data = await connection.QueryFirstOrDefaultAsync<TeamDTO>(query);
+                var data = await connection.QueryFirstOrDefaultAsync<TeamDTO>(query, new
+                {
+                    @Id = id
+                });
                 return data;
             }
         }

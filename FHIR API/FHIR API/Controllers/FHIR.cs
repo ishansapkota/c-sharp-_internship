@@ -33,9 +33,7 @@ namespace FHIR_API.Controllers
                             {
                                 Id = patient.Id,
                                 Name = patient.Name[0].ToString(),
-                                Address = patient.Address,
-                                MaritalStatus = patient.MaritalStatus,
-                                Language = patient.Language
+                                
                             });
                         }
                     }  

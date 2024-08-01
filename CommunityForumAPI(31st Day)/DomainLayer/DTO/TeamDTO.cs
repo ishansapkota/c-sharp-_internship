@@ -9,6 +9,9 @@ namespace DomainLayer.DTO
 {
     public class TeamDTO
     {
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
         [JsonPropertyName("teamname")]
         public string TeamName { get; set; }
         [JsonPropertyName("points")]

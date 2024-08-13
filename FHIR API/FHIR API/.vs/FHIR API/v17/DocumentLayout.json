@@ -42,8 +42,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:13:11.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T11:13:11.089Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T11:10:18.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T11:10:18.125Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T11:10:10.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T11:10:10.405Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "DockerFile.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-01T11:08:55.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T11:08:55.448Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "Controllers\\FHIR.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\Controllers\\FHIR.cs",
               "RelativeToolTip": "Controllers\\FHIR.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAyAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T10:56:46.828Z",
               "EditorCaption": ""

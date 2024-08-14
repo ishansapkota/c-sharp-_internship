@@ -181,7 +181,7 @@ namespace InfrastructureLayer.Repository
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "SELECT ud.FirstName,ud.LastName,ud.Address,u.Email FROM UserDetails ud JOIN Users u ON ud.AuthUserId=u.Id WHERE AuthUserId=@Id";
+                var query = "SELECT ud.FirstName,ud.LastName,ud.Address,ud.DoB,u.Email FROM UserDetails ud JOIN Users u ON ud.AuthUserId=u.Id WHERE AuthUserId=@Id";
                 var data = await connection.QueryFirstOrDefaultAsync<EditUserDTO>(query, new
                 {
                     @Id = id

@@ -92,7 +92,6 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
-
         [HttpPost("login")]
         public async Task<IActionResult> UserLogin(UserDTO user)
         {
@@ -120,6 +119,21 @@ namespace CommunityForumAPI.Controllers
             catch(Exception e) 
             {
                 return BadRequest(e.Message);
+            }
+        }
+
+        [HttpPut("change-password"),Authorize(Roles ="User")]
+        public async Task<IActionResult> PasswordChange(ChangePasswordDTO pass)
+        {
+            try
+            {
+                var id = User.FindFirst(ClaimTypes.SerialNumber).Value;
+                await service.ChangePasswordAsync( pass, Convert.ToInt16(id));
+                return Ok(new { message = "Password has been changed successfully." });
+            }
+            catch(Exception e)
+            {
+                return BadRequest(new { e.Message });
             }
         }
 

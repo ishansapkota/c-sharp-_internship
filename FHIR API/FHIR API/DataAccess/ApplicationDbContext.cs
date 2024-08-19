@@ -10,5 +10,6 @@ namespace FHIR_API.DataAccess
         }
 
         public DbSet<PatientDetail> Patients { get; set; }
+        public DbSet<PractitionerDetails>Practioners { get; set; } 
     }
 }

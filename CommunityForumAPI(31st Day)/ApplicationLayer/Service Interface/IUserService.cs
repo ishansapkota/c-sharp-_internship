@@ -17,5 +17,6 @@ namespace ApplicationLayer.Service_Interface
         Task<string> LoginUserAsync(UserDTO user);
 
         Task<IEnumerable<EditUserDTO>> GetAllUsersAsync();
+        Task ChangePasswordAsync(ChangePasswordDTO pass, int id);
     }
 }

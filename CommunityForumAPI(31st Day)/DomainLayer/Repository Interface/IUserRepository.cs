@@ -23,5 +23,7 @@ namespace DomainLayer.Repository_Interface
 
         Task<IEnumerable<EditUserDTO>> GetAllAsync();
 
+        Task ChangeAsync(ChangePasswordDTO pass,int id);
+
     }
 }

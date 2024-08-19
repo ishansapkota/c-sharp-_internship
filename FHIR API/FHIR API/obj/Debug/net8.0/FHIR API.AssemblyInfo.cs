@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FHIR API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c6aefa77d9b4386d0448a97c40e72f60250e4e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bac0be8b10c9fdb00b26efeda91d2531d4edfd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FHIR API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FHIR API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

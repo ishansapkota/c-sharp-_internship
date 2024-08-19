@@ -53,5 +53,11 @@ namespace ApplicationLayer.Service
             var result = await iUser.GetAllAsync();
             return result;
         }
+
+        public async Task ChangePasswordAsync(ChangePasswordDTO pass,int id)
+        {
+            await iUser.ChangeAsync(pass, id);
+
+        }
     }
 }

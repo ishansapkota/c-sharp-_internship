@@ -110,7 +110,7 @@ namespace YourNamespace.Controllers
     public class PatientController : ControllerBase
     {
         private const string FhirServer = "https://server.fire.ly";
-        /*private const string FhirServer = "http://hapi.fhir.org/baseR4";*/
+        /*private const string FhirServer = "http://hapi.fhir.org/baseR5";*/
         private readonly ApplicationDbContext appDbContext;
         private readonly string connectionstring;
 
@@ -130,6 +130,7 @@ namespace YourNamespace.Controllers
                 var total = patientBundle.Total;
 
                 var patients = new List<object>();
+                var patientsStandard = new List<object>();
 
                 while (patientBundle != null && patientBundle.Entry != null && patientBundle.Entry.Count > 0)
                 {
@@ -170,6 +171,7 @@ namespace YourNamespace.Controllers
                                     {
                                         foreach (var l in lineList)
                                         {
+                                            if(l != null)
                                             line = l.ToString();
                                         }
                                     }
@@ -251,7 +253,6 @@ namespace YourNamespace.Controllers
                                 {
                                     gender = "NOT SPECIFIED";
                                 }
-                                
                             }
 
                             //FOR DECEASED
@@ -475,8 +476,10 @@ namespace YourNamespace.Controllers
 
                                         foreach(var l in contactLineList)
                                         {
+                                            if( l is not null)
                                             contactLine = l.ToString(); 
                                         }
+                                        if(add.City is not null)
                                         contactCity = add.City.ToString();
                                         if (add.District !=null)
                                         contactDistrict = add.District.ToString();
@@ -552,7 +555,7 @@ namespace YourNamespace.Controllers
                             }
 
 
-                            var patientsdata = new PatientDetail()
+                            /*var patientsdata = new PatientDetail()
                             {
                                 Id = patient.Id,
                                 Active = patient.Active ?? false,
@@ -576,7 +579,7 @@ namespace YourNamespace.Controllers
 
                             };
                             appDbContext.Patients.Add(patientsdata);
-                            appDbContext.SaveChanges();
+                            appDbContext.SaveChanges();*/
 
                             /*using(var connection = new NpgsqlConnection(connectionstring))
                             {
@@ -605,30 +608,21 @@ namespace YourNamespace.Controllers
                                 });
                             }*/
 
-                            /*patients.Add(new
+                            patientsStandard.Add(new
                             {
                                 Id = patient.Id,
-                                *//*Active = patient.Active??false,
-                                Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
-                                Address = address,
-                                Gender = gender,
-                                DoB = patient.BirthDate ?? "NOT SPECIFIED",*/
-                            /*Deceased = patient.Deceased,
-                            MaritalStatus = patient.MaritalStatus,
-                            MultipleBirth = multipleBirth,
-                            Telecom = patient.Telecom,
-                            Address = address,
-                            StandardContact = patient.Contact,
-                            ContactRelationship = contactRelationship,
-                            ContactName = contactName,
-                            ContactPhone = contactPhone,
-                            ContactEmail = contactEmail,
-                            ContactAddress = contactAddress,
-                            ContactGender = contactGender,
-                            ContactPeriod = contactPeriod,*//*
-                            Communcation = patient.Communication
-
-                        });*/
+                                Active = patient.Active,
+                                Name = patient.Name,
+                                Address = patient.Address,
+                                Gender = patient.Gender,
+                                DoB = patient.BirthDate,
+                                Deceased = patient.Deceased,
+                                MaritalStatus = patient.MaritalStatus,
+                                MultipleBirth = patient.MultipleBirth,
+                                Telecom = patient.Telecom,
+                                Contact = patient.Contact,
+                                Communcation = patient.Communication
+                            });
                         }
                     }
 
@@ -644,7 +638,7 @@ namespace YourNamespace.Controllers
                 {
                     Total = patients.Count,
                     FullTotal = total,
-                    Patients = patients
+                    Patients = patientsStandard
                 });
             }
             catch (Exception ex)
@@ -662,8 +656,8 @@ namespace YourNamespace.Controllers
                 FhirClient fhirClient = new FhirClient(FhirServer);
                 Bundle practitionerBundle = fhirClient.Search<Practitioner>(new string[] { });
                 var total = practitionerBundle.Total;
-
                 var practitioners = new List<object>();
+                var practitionersStandard = new List<object>();
 
                 while (practitionerBundle != null && practitionerBundle.Entry != null && practitionerBundle.Entry.Count > 0)
                 {
@@ -701,31 +695,23 @@ namespace YourNamespace.Controllers
                             string email = "";
                             string phone = "";
                             string fax = "";
-                            if (practitioner.Telecom != null)
+                            if (practitioner.Telecom is List<ContactPoint> telecomdetail && telecomdetail != null && telecomdetail.Count > 0)
                             {
-
-                                if (practitioner.Telecom is List<ContactPoint> telecomdetail)
+                                foreach (var a in telecomdetail)
                                 {
-                                    if (telecomdetail.Count > 0 && telecomdetail != null)
+                                    if (a != null && a.System != null)
                                     {
-                                        foreach (var a in telecomdetail)
+                                        if (a.System.ToString() == "Email" && a.Value != null)
                                         {
-                                            if (a.System != null)
-                                            {
-                                                if (a.System.ToString() == "Email")
-                                                {
-                                                    email += a.Value.ToString() + " ";
-                                                }
-                                                if (a.System.ToString() == "Phone")
-                                                {
-                                                    phone += a.Value.ToString() + " ";
-                                                }
-
-                                                if (a.System.ToString() == "Fax")
-                                                {
-                                                    fax += a.Value.ToString() + " ";
-                                                }
-                                            }
+                                            email += a.Value.ToString() + " ";
+                                        }
+                                        else if (a.System.ToString() == "Phone" && a.Value != null)
+                                        {
+                                            phone += a.Value.ToString() + " ";
+                                        }
+                                        else if (a.System.ToString() == "Fax" && a.Value != null)
+                                        {
+                                            fax += a.Value.ToString() + " ";
                                         }
                                     }
                                 }
@@ -775,7 +761,14 @@ namespace YourNamespace.Controllers
                                     {
                                         foreach (var l in lineList)
                                         {
-                                            line = l.ToString();
+                                            if(l != null)
+                                            { 
+                                                line = l.ToString(); 
+                                            }
+                                            else
+                                            {
+                                                line = "";
+                                            }
                                         }
                                     }
                                     var cityname = addressvalues.FirstOrDefault()?.City;
@@ -803,11 +796,20 @@ namespace YourNamespace.Controllers
                                         if(i.Identifier != null)
                                         {
                                             var idList = i.Identifier;
-                                            foreach(var j in idList)
+                                            if(idList != null)
                                             {
-                                                id = j.Value.ToString();
+                                                foreach(var j in idList)
+                                                {
+                                                    if(j != null && j.Value != null)
+                                                    { 
+                                                        id = j.Value.ToString();
+                                                    }
+                                                }
+                                                if(id!=null)
+                                                { 
+                                                    qualification.Add(id); 
+                                                }
                                             }
-                                            qualification.Add(id);
                                         }
 
                                         if(i.Code is CodeableConcept code )
@@ -881,22 +883,44 @@ namespace YourNamespace.Controllers
                                     }
                                 }
                             }*/
+                            /*string? DoB = "";
+                            if(practitioner.BirthDate is Date dob)
+                            {
+                                DoB = practitioner.BirthDate.ToString();
+                            }*/
 
-
-                            practitioners.Add(new
+                            var practitionerDB = new PractitionerDetails()
                             {
                                 Id = practitioner.Id,
                                 Active = practitioner.Active??false,
                                 Name = prefix + " " + practitioner.Name.FirstOrDefault()?.ToString() ?? "Not specified",
-                               /* Email = email,
+                                Email = email,
                                 Phone = phone,
-                                Fax = fax,*/
+                                Fax = fax,
                                 Gender = gender,
                                 Address = address,
-                                Qualification = qualification,
-                                stdQual = practitioner.Qualification,
-                                Language = practitioner.Language
+                                Qualification = qualification
+                                
+                            };
+
+                            appDbContext.Practioners.Add(practitionerDB);
+                            appDbContext.SaveChanges();
+
+                            practitionersStandard.Add(new
+                            {
+                                Id = practitioner.Id,
+                                Active = practitioner.Active ?? false,
+                                Name = practitioner.Name,
+                                Telecom = practitioner.Telecom,
+                                Gender = practitioner.Gender,
+                                BirthDate = practitioner.BirthDate,
+                                Address = practitioner.Address,
+                                Photo = practitioner.Photo,
+                                Qualification = practitioner.Qualification,
+                                Communication = practitioner.Communication
                             });
+
+
 
                         }
                     }
@@ -911,8 +935,9 @@ namespace YourNamespace.Controllers
 
                 return Ok(new
                 {
-                    Practitioner = practitioners,
-                    Total = total
+                    Practitioner = practitionersStandard,
+                    Total = total,
+                    
                 });
             }
 

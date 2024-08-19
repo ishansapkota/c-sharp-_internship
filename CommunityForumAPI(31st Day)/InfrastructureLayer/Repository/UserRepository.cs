@@ -209,6 +209,21 @@ namespace InfrastructureLayer.Repository
             }
         }
 
+        public async Task ChangeAsync(ChangePasswordDTO pass,int id)
+        {
+            HashPassword(pass.password, out byte[] passSalt,out byte[] passHash);
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "UPDATE Users SET PasswordHash = @PasswordHash, PasswordSalt = @PasswordSalt WHERE Id=@Id";
+                await connection.ExecuteAsync(query, new
+                {
+                    @PasswordHash = passHash,
+                    @PasswordSalt = passSalt,
+                    @Id = id
+                });
+            }
+        }
+
      /*   public async Task<IEnumerable<EditUserDTO>> GetAllUsersAsync()
         {
             using (var connection = new SqlConnection(connectionstring))

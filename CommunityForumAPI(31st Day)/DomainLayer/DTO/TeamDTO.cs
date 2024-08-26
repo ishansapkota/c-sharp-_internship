@@ -16,5 +16,8 @@ namespace DomainLayer.DTO
         public string TeamName { get; set; }
         [JsonPropertyName("points")]
         public int Points { get; set; }
+
+        [JsonPropertyName("goaldifference")]
+        public int GoalDifference { get; set; }
     }
 }

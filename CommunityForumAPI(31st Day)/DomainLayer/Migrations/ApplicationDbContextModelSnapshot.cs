@@ -150,6 +150,9 @@ namespace DomainLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("GoalDifference")
+                        .HasColumnType("int");
+
                     b.Property<int>("Points")
                         .HasColumnType("int");
 

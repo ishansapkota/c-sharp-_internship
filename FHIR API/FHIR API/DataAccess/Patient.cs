@@ -13,7 +13,7 @@ namespace FHIR_API.DataAccess
         public string? DoB { get; set; }
         public List<string>? Deceased { get; set; }
         public List<string>? MaritalStatus { get; set; }
-        public bool? MultipleBirth { get; set; }
+        public List<string>? MultipleBirth { get; set; }
         public List<string>? Telecom { get; set; }
         public string? ContactRelationship { get; set; }
         public string? ContactName { get; set; }

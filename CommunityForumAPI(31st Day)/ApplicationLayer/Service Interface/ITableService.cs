@@ -16,5 +16,7 @@ namespace ApplicationLayer.Service_Interface
         Task<IEnumerable<TeamDTO>> GetAllTeamsAsync();
 
         Task<TeamDTO> GetSingleTeamAsync(int id);
+
+        Task<IEnumerable<TeamDTO>> GetAllTeamsOrderAsync();
     }
 }

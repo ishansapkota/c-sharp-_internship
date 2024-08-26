@@ -36,5 +36,10 @@ namespace ApplicationLayer.Service
         {
             return await iRepo.GetByIdAsync(id);
         }
+
+        public async Task<IEnumerable<TeamDTO>> GetAllTeamsOrderAsync()
+        {
+            return await iRepo.GetAllOrderAsync();
+        }
     }
 }

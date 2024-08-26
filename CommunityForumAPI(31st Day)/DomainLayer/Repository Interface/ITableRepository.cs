@@ -15,5 +15,7 @@ namespace DomainLayer.Repository_Interface
         Task<IEnumerable<TeamDTO>> GetAllAsync();
 
         Task<TeamDTO> GetByIdAsync(int id);
+
+        Task<IEnumerable<TeamDTO>> GetAllOrderAsync();
     }
 }

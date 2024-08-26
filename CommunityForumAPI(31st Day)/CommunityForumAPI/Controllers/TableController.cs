@@ -73,6 +73,18 @@ namespace CommunityForumAPI.Controllers
             }
         }
 
-
+        [HttpGet("order-teams")]
+        public async Task<IActionResult> GetOrderedTeam()
+        {
+            try
+            {
+                var team = await iService.GetAllTeamsOrderAsync();
+                return Ok(team);
+            }
+            catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }

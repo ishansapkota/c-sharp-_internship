@@ -12,7 +12,6 @@ namespace FHIR_API.Controllers
     public class FHIR : ControllerBase
     {
         private const string FhirServer = "https://server.fire.ly";
-
         [HttpGet]
         public IActionResult GetPatients()
         {
@@ -520,7 +519,8 @@ namespace YourNamespace.Controllers
                                          {
                                              Language = coding.Key;
                                              Language.FirstOrDefault()?.
-                                         }*//*
+                                         }*/
+        /*
                                         if (lang != null && lang.Coding != null)
                                         {
                                             var coding = lang.Coding;
@@ -604,12 +604,14 @@ namespace YourNamespace.Controllers
                 @Communication = language,
                 @PreferredLanguage = preferredLang
             });
-        }*//*
+        }*/
+        /*
 
         patientsStandard.Add(new
         {
             Id = patient.Id,
-            *//*Active = patient.Active,
+            */
+        /*Active = patient.Active,
             Name = patient.Name,
             Address = patient.Address,
             Gender = patient.Gender,
@@ -817,14 +819,42 @@ return StatusCode(500, new { Message = ex.Message });
 
                             }
 
-                            bool? multipleBirth = false;
+                            List<string> multipleBirth = new List<string>();
+                            string? multipleBirthStatus = String.Empty;
+                            string? multipleBirthOrder = String.Empty;
 
                             //MULTIPLE BIRTH 
                             if (patient.MultipleBirth != null)
                             {
                                 if (patient.MultipleBirth is FhirBoolean multipleBirthBoolean)
                                 {
-                                    multipleBirth = multipleBirthBoolean.Value;
+                                    multipleBirthStatus = multipleBirthBoolean.Value.ToString();
+                                    multipleBirth.Add(multipleBirthStatus ?? "Unknown");
+                                }
+
+                                else if(patient.MultipleBirth is Integer multipleBirthInteger)
+                                {
+                                    multipleBirthStatus = "True";
+
+                                    if (multipleBirthInteger.Value == 0)
+                                    {
+                                        multipleBirthOrder = "Birth order not specified";
+                                    }
+                                    else if (multipleBirthInteger.Value == 1)
+                                    {
+                                        multipleBirthOrder = "First child";
+                                    }
+                                    else if (multipleBirthInteger.Value == 2)
+                                    {
+                                        multipleBirthOrder = "Second child";
+                                    }
+                                    else
+                                    {
+                                        multipleBirthOrder = $"Child number {multipleBirthInteger.Value}";
+                                    }
+
+                                    multipleBirth.Add(multipleBirthStatus);
+                                    multipleBirth.Add(multipleBirthOrder);
                                 }
                             }
 
@@ -1286,7 +1316,8 @@ return StatusCode(500, new { Message = ex.Message });
                                 }
                             }
 
-                            *//*//COMMUNICATION
+                            */
+/*//COMMUNICATION
                             string? language = "";
                             string? preferredLang = "";
 
@@ -1332,11 +1363,13 @@ return StatusCode(500, new { Message = ex.Message });
                                     }
                                 }
                             }*/
-                            /*string? DoB = "";
+                            
+        /*string? DoB = "";
                             if (practitioner.BirthDate is Date dob)
                             {
                                 DoB = practitioner.BirthDate.ToString();
-                            }*//*
+                            }*/
+        /*
 
                             var practitionerDB = new PractitionerDetails()
                             {
@@ -1403,7 +1436,6 @@ return StatusCode(500, new { Message = ex.Message });
 
                 //creating list "patients" that stores objects
                 var patients = new List<object>();
-
                 while (patientBundle != null && patientBundle.Entry != null && patientBundle.Entry.Count > 0)
                 {
                     foreach (Bundle.EntryComponent patientEntry in patientBundle.Entry)
@@ -1740,10 +1772,3 @@ return StatusCode(500, new { Message = ex.Message });
          }
      }*/
 }
-
-
-
-
-
-
-

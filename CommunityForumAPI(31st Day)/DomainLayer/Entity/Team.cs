@@ -11,6 +11,7 @@ namespace DomainLayer.Entity
         public int Id { get; set; }
         public string TeamName { get; set; } = string.Empty;
         public int Points { get; set; }
+        public int GoalDifference { get; set; }
 
     }
 }

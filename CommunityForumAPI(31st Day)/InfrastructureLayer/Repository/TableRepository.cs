@@ -33,10 +33,11 @@ namespace InfrastructureLayer.Repository
         {
             using (var connection = new SqlConnection(connectionstring))
             {
-                var query = "UPDATE Teams SET Points=@Points WHERE Id=@Id";
+                var query = "UPDATE Teams SET Points=@Points, GoalDifference = @GoalDifference WHERE Id=@Id";
                 await connection.ExecuteAsync(query, new
                 {
                     @Points = team.Points,
+                    @GoalDifference = team.GoalDifference,
                     @Id = id
                 });
             }
@@ -62,6 +63,16 @@ namespace InfrastructureLayer.Repository
                     @Id = id
                 });
                 return data;
+            }
+        }
+
+        public async Task<IEnumerable<TeamDTO>> GetAllOrderAsync()
+        {
+            using (var connection = new SqlConnection(connectionstring))
+            {
+                var query = "SELECT * FROM Teams ORDER BY Points DESC,GoalDifference DESC, TeamName ASC";
+                var data = await connection.QueryAsync<TeamDTO>(query);
+                return data.ToList();
             }
         }
     }

@@ -1,0 +1,18 @@
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Application Layer.deps.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Application Layer.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Application Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Application Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Domain Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\bin\Debug\net8.0\Domain Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.sourcelink.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Applicat.A7418506.Up2Date
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\refint\Application Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\Application Layer.genruntimeconfig.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Application Layer\obj\Debug\net8.0\ref\Application Layer.dll

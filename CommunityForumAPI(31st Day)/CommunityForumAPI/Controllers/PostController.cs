@@ -12,14 +12,12 @@ namespace CommunityForumAPI.Controllers
     public class PostController : ControllerBase
     {
         private readonly IPostService iService;
-
         public PostController(IPostService _iService)
         {
             iService = _iService;
         }
 
         [HttpPost("post/"), Authorize(Roles = "User")]
-
         public async Task<IActionResult> PostAdd(PostDTO post)
         {
             try

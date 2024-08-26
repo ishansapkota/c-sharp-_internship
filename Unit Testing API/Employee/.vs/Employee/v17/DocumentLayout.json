@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE70FA2A-7A1D-4ACA-BDF8-D808DCE36E9A}|Employee.Test\\Employee.Test.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\employee.test\\controller\\testemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE70FA2A-7A1D-4ACA-BDF8-D808DCE36E9A}|Employee.Test\\Employee.Test.csproj|solutionrelative:employee.test\\controller\\testemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\employee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|solutionrelative:employee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\application layer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|solutionrelative:application layer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5EFB90-3F48-47DA-B925-58DD189AC053}|Domain Layer\\Domain Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\domain layer\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5EFB90-3F48-47DA-B925-58DD189AC053}|Domain Layer\\Domain Layer.csproj|solutionrelative:domain layer\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\application layer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|solutionrelative:application layer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\employee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|solutionrelative:employee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\employee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|solutionrelative:employee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Application Layer\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Application Layer\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:35:58.567Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\appsettings.json",
+              "RelativeDocumentMoniker": "Employee\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\appsettings.json",
+              "RelativeToolTip": "Employee\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T09:11:06.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\Program.cs",
+              "RelativeDocumentMoniker": "Employee\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\Program.cs",
+              "RelativeToolTip": "Employee\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:35.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Domain Layer\\Data Access\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Domain Layer\\Data Access\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Domain Layer\\Data Access\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Domain Layer\\Data Access\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:17.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Application Layer\\Service Interface\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "Application Layer\\Service Interface\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:35:45.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee.Test\\Controller\\TestEmployeeController.cs",
+              "RelativeDocumentMoniker": "Employee.Test\\Controller\\TestEmployeeController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee.Test\\Controller\\TestEmployeeController.cs",
+              "RelativeToolTip": "Employee.Test\\Controller\\TestEmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:19:33.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Employee\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Employee\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:44:39.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

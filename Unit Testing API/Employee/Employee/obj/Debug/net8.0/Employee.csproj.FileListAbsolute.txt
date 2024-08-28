@@ -58,8 +58,6 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Em
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Npgsql.dll
-C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -143,3 +141,5 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Em
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Domain Layer.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Application Layer.pdb
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Domain Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Npgsql.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\Unit Testing API\Employee\Employee\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

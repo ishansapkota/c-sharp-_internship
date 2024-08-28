@@ -9,20 +9,28 @@ namespace Employee.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-      
+        private readonly IEmployeeService iEmp;
+
+        public EmployeeController(IEmployeeService _iEmp)
+        {
+            iEmp = _iEmp;
+        }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+            var data = await iEmp.GetEmployee();
            
-            return Ok("hey");
+            return Ok(data);
         }
-/*
+
         [HttpPost]
         public async Task<IActionResult> Post(EmployeeDTO emp)
         {
             await iEmp.AddEmployee(emp);
             return Ok();
-        }*/
+        }
+
+
     }
 }

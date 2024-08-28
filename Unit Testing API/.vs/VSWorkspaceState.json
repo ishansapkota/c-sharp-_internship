@@ -3,8 +3,10 @@
     "",
     "\\Employee",
     "\\Employee\\Employee",
+    "\\Employee\\Employee.Test",
+    "\\Employee\\Employee.Test\\Controller",
     "\\Employee\\Employee\\Controllers"
   ],
-  "SelectedNode": "\\Employee\\Employee\\Controllers\\EmployeeController.cs",
+  "SelectedNode": "\\Employee\\Employee.Test\\Controller\\TestEmployeeController.cs",
   "PreviewInSolutionExplorer": false
 }

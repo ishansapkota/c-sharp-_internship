@@ -9,8 +9,8 @@ namespace Application_Layer.Service_Interface
 {
     public interface IEmployeeService
     {
-      /*  Task<IEnumerable<EmployeeDTO>> GetEmployee();
+        Task<IEnumerable<EmployeeDTO>> GetEmployee();
 
-        Task AddEmployee(EmployeeDTO emp);*/
+        Task AddEmployee(EmployeeDTO emp);
     }
 }

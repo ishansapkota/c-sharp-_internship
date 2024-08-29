@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DomainLayer"
+    "\\DomainLayer",
+    "\\InfrastructureLayer",
+    "\\InfrastructureLayer\\Repository"
   ],
-  "SelectedNode": "\\CommunityForumAPI.sln",
+  "SelectedNode": "\\InfrastructureLayer\\Repository\\UserRepository.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{CC33B74A-F21A-41C4-A0D4-BB02065C88A2}|Employee\\Employee.csproj|solutionrelative:employee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\application layer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|solutionrelative:application layer\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\unit testing api\\employee\\application layer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A02246FF-66F9-4677-8E42-149202BF1079}|Application Layer\\Application Layer.csproj|solutionrelative:application layer\\service interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Application Layer\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Application Layer\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAD4vysAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:57:54.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Application Layer\\Service Interface\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "Application Layer\\Service Interface\\IEmployeeService.cs",
@@ -34,8 +51,7 @@
               "RelativeToolTip": "Application Layer\\Service Interface\\IEmployeeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T08:38:28.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T08:38:28.465Z"
             },
             {
               "$type": "Document",
@@ -45,7 +61,7 @@
               "RelativeDocumentMoniker": "Employee\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Employee\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T08:30:21.635Z",
               "EditorCaption": ""
@@ -58,7 +74,7 @@
               "RelativeDocumentMoniker": "Employee.Test\\Controller\\TestEmployeeController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\Unit Testing API\\Employee\\Employee.Test\\Controller\\TestEmployeeController.cs",
               "RelativeToolTip": "Employee.Test\\Controller\\TestEmployeeController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwCYAAAAVAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAA6wFUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T06:29:32.525Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3362f3e0319ceb0aaac3b9115f2aabd74a36f47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c039e57423c8fe760d51d028cf58fcce9243287")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommunityForumAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

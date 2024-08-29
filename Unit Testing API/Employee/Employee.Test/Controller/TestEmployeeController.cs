@@ -83,9 +83,6 @@ namespace Employee.Test.Controller
 
             //ASSERT
             Assert.IsType<BadRequestResult>(result);
-
-
         }
-
     }
 }

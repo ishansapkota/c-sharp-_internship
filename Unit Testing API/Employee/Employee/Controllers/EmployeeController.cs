@@ -27,10 +27,15 @@ namespace Employee.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(EmployeeDTO emp)
         {
-            await iEmp.AddEmployee(emp);
-            return Ok();
+            try
+            {
+                await iEmp.AddEmployee(emp);
+                return Ok();
+            }
+            catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
-
-
     }
 }

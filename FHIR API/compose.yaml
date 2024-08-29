@@ -12,10 +12,26 @@ services:
     build:
       context: .
       target: final
+    depends_on:
+      - postgres-database  
       
 
     ports:
       - 8080:8080
+
+  postgres-database:
+    image: postgres
+    volumes: 
+     - db-data:/var/lib/postgresql/data
+    ports:
+      - "5444:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+volumes:
+  db-data:
 
 # services:
 #   server:
@@ -37,8 +53,7 @@ services:
 #     depends_on:
 #       db:
 #         condition: service_healthy
-#   db:
-#     image: postgres
+  
 #     restart: always
 #     user: postgres
 #     secrets:
@@ -55,8 +70,7 @@ services:
 #       interval: 10s
 #       timeout: 5s
 #       retries: 5
-# volumes:
-#   db-data:
+
 # secrets:
 #   db-password:
 #     file: db/password.txt

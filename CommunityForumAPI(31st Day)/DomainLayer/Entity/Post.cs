@@ -23,6 +23,5 @@ namespace DomainLayer.Entity
 
         [ForeignKey("AuthUserId")]
         public AuthUser AuthUsers { get; set; }
-
     }
 }

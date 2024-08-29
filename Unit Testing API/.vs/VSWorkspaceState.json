@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Employee",
+    "\\Employee\\Application Layer",
+    "\\Employee\\Application Layer\\Service",
     "\\Employee\\Employee",
     "\\Employee\\Employee.Test",
     "\\Employee\\Employee.Test\\Controller",
     "\\Employee\\Employee\\Controllers"
   ],
-  "SelectedNode": "\\Employee\\Employee.Test\\Controller\\TestEmployeeController.cs",
+  "SelectedNode": "\\Employee\\Application Layer\\Service\\EmployeeService.cs",
   "PreviewInSolutionExplorer": false
 }

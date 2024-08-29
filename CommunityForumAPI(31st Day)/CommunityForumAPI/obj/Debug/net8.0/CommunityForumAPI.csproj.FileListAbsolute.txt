@@ -149,3 +149,4 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Scrutor.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\CommunityForumAPI(31st Day)\CommunityForumAPI\bin\Debug\net8.0\AutoMapper.dll

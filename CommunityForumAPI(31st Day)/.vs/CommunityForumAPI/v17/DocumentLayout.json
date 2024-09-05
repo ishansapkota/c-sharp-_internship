@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\infrastructurelayer\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\domainlayer\\entity\\commentpostuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2315352B-04CF-4DB5-8A25-1D91222C0B81}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entity\\commentpostuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\communityforumapi(31st day)\\infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131B3799-47C4-491D-9B46-5DACAEC19C3E}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repository\\CommentRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T04:54:42.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CommentPostUser.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Entity\\CommentPostUser.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entity\\CommentPostUser.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Entity\\CommentPostUser.cs",
+              "RelativeToolTip": "DomainLayer\\Entity\\CommentPostUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T04:54:20.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\DomainLayer\\Entity\\Post.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Entity\\Post.cs",
@@ -34,16 +67,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\CommunityForumAPI(31st Day)\\InfrastructureLayer\\Repository\\UserRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAcwJkAAAAAAAAA",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAYwMYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:30:42.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T10:30:42.04Z"
             }
           ]
         }

@@ -648,7 +648,7 @@ return StatusCode(500, new { Message = ex.Message });
 }*/
 
 
-        [HttpGet]
+        [HttpGet("get-patients/{maxCount}")]
         public IActionResult GetPatients(int maxCount)
         {
             try
@@ -919,7 +919,7 @@ return StatusCode(500, new { Message = ex.Message });
                                                     relationship = "Next-of-Kin";
                                                 }
                                                 else if (relationshipcodeValue == "S")
-                                                {
+                                                { 
                                                     relationship = "State Agency";
                                                 }
                                                 else if (relationshipcodeValue == "U")
@@ -1064,7 +1064,7 @@ return StatusCode(500, new { Message = ex.Message });
                             }
 
 
-                            var patientsdata = new PatientDetail()
+                            /*var patientsdata = new PatientDetail()
                             {
                                 Id = patient.Id,
                                 Active = patient.Active ?? false,
@@ -1088,7 +1088,7 @@ return StatusCode(500, new { Message = ex.Message });
 
                             };
                             appDbContext.Patients.Add(patientsdata);
-                            appDbContext.SaveChanges();
+                            appDbContext.SaveChanges();*/
 
 
                             patients.Add(new

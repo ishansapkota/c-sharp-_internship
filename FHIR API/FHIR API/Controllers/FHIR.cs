@@ -655,6 +655,7 @@ return StatusCode(500, new { Message = ex.Message });
             {
                 FhirClient fhirClient = new FhirClient(FhirServer);
                 Bundle patientBundle = fhirClient.Search<Patient>(new string[] { });
+
                 var total = patientBundle.Total;
 
                 //creating list "patients" that stores objects
@@ -1093,6 +1094,7 @@ return StatusCode(500, new { Message = ex.Message });
 
                             patients.Add(new
                             {
+                                ResourceType = patient.ResourceBase,
                                 Id = patient.Id,
                                 Active = patient.Active,
                                 Name = patient.Name,
@@ -1669,7 +1671,7 @@ return StatusCode(500, new { Message = ex.Message });
                                 DoB = practitioner.BirthDate.ToString();
                             }*/
 
-                            var practitionerDB = new PractitionerDetails()
+                            /*var practitionerDB = new PractitionerDetails()
                             {
                                 Id = practitioner.Id,
                                 Active = practitioner.Active ?? false,
@@ -1684,10 +1686,11 @@ return StatusCode(500, new { Message = ex.Message });
                             };
 
                             appDbContext.Practioners.Add(practitionerDB);
-                            appDbContext.SaveChanges();
+                            appDbContext.SaveChanges();*/
 
                             patients.Add(new
                             {
+                                ResourceType = practitioner.ResourceBase,
                                 Id = practitioner.Id,
                                 Active = practitioner.Active ?? false,
                                 Name = practitioner.Name,
@@ -1697,7 +1700,8 @@ return StatusCode(500, new { Message = ex.Message });
                                 Address = practitioner.Address,
                                 Photo = practitioner.Photo,
                                 Qualification = practitioner.Qualification,
-                                Communication = practitioner.Communication
+                                Communication = practitioner.Communication,
+         
                             });
                         }
                     }

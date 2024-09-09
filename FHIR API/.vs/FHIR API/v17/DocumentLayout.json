@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4853546F-9091-4F3E-922A-2E6423C0BA85}|FHIR API\\FHIR API.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\fhir api\\fhir api\\controllers\\fhir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4853546F-9091-4F3E-922A-2E6423C0BA85}|FHIR API\\FHIR API.csproj|solutionrelative:fhir api\\controllers\\fhir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4853546F-9091-4F3E-922A-2E6423C0BA85}|FHIR API\\FHIR API.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\fhir api\\fhir api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4853546F-9091-4F3E-922A-2E6423C0BA85}|FHIR API\\FHIR API.csproj|solutionrelative:fhir api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\Program.cs",
+              "RelativeDocumentMoniker": "FHIR API\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\Program.cs",
+              "RelativeToolTip": "FHIR API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T05:07:13.791Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "FHIR API\\Controllers\\FHIR.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\Controllers\\FHIR.cs",
               "RelativeToolTip": "FHIR API\\Controllers\\FHIR.cs",
-              "ViewState": "AQIAADsEAAAAAAAAAAAIwEoEAAA6AAAA",
+              "ViewState": "AQIAAFQGAAAAAAAAAAAgwKgGAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T10:56:31.098Z",
               "EditorCaption": ""

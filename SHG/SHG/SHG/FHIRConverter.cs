@@ -52,4 +52,47 @@ public class FhirConverter
 
         return patient;
     }
+
+    public static Practitioner ConvertToFhirPractitioner(User data)
+    {
+        var practitioner = new Practitioner
+        {
+            Id = Convert.ToString(data.Id),
+            Name = new List<HumanName>
+            {
+                new HumanName
+                {
+                    Family = data.LastName,
+                    Given =  new List<string>
+                    {
+                         data.FirstName
+                    }
+                }
+            },
+
+            Active = null,
+            Telecom = new List<ContactPoint>
+            {
+                new ContactPoint
+                {
+                    System = ContactPoint.ContactPointSystem.Phone,
+                    Value = data.PhoneNumber,
+                },
+                new ContactPoint
+                {
+                     System= ContactPoint.ContactPointSystem.Email,
+                    Value= data.Email
+                }
+            },
+            Gender = null,
+            BirthDate = null,
+            Photo = null,
+            Qualification = null,
+            Communication = null
+
+        };
+
+        return practitioner;
+    }
+
 }

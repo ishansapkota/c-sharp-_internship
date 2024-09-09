@@ -34,7 +34,7 @@ namespace SHGAPI.Controllers
             return Content(fhirPatient.ToJson(), "application/fhir+json");
         }
 
-        [HttpGet]
+        [HttpGet("all-patients")]
         public async Task<IActionResult> GetAllPatients()
         {
             var patients = await _context.Patients.ToListAsync();
@@ -52,5 +52,36 @@ namespace SHGAPI.Controllers
             return Ok(jsonFhirPatients);
         }
 
+        [HttpGet("practitioners")]
+        public async Task<IActionResult> GetAllFhirPractitioners()
+        {
+            var allPractitionerData = await _context.Users.ToListAsync();
+
+            if (allPractitionerData == null || allPractitionerData.Count == 0)
+            {
+                return NotFound();
+            }
+
+
+            var fhirPractitioners = new List<Hl7.Fhir.Model.Practitioner>();
+            foreach (var practitionerData in allPractitionerData)
+            {
+                var fhirPatient = FhirConverter.ConvertToFhirPractitioner(practitionerData);
+                fhirPractitioners.Add(fhirPatient);
+            }
+
+            var fhirJsonSerializer = new FhirJsonSerializer();
+            var serializedPractitioners = new List<string>();
+
+            foreach (var practitioner in fhirPractitioners)
+            {
+                var serializedPractitioner = fhirJsonSerializer.SerializeToString(practitioner);
+                serializedPractitioners.Add(serializedPractitioner);
+            }
+
+            string jsonArray = "[" + string.Join(",", serializedPractitioners) + "]";
+
+            return Content(jsonArray, "application/fhir+json");
+        }
     }
 }

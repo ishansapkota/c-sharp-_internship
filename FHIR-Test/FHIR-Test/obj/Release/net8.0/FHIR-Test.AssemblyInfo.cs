@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FHIR-Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea73954e248be5490316bda61c5d1ec610b87741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02cae6bdb030b8d0833796666385f0ecf0ef4346")]
 [assembly: System.Reflection.AssemblyProductAttribute("FHIR-Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FHIR-Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

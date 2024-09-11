@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hl7.Fhir.Model;
+using System;
 using System.Collections.Generic;
 
 namespace SHG.Models;
@@ -146,4 +147,6 @@ public partial class User
     public virtual ICollection<Vital> VitalCreatedByNavigations { get; set; } = new List<Vital>();
 
     public virtual ICollection<Vital> VitalUpdatedByNavigations { get; set; } = new List<Vital>();
+    public List<HumanName> Name { set; get; }
+
 }

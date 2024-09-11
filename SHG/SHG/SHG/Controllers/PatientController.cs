@@ -1,6 +1,8 @@
-﻿using Hl7.Fhir.Serialization;
+﻿using Hl7.Fhir.Model;
+using Hl7.Fhir.Serialization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SHG.DTO;
 using SHG.Models;
 
 
@@ -52,6 +54,7 @@ namespace SHGAPI.Controllers
             return Ok(jsonFhirPatients);
         }
 
+
         [HttpGet("practitioners")]
         public async Task<IActionResult> GetAllFhirPractitioners()
         {
@@ -63,7 +66,7 @@ namespace SHGAPI.Controllers
             }
 
 
-            var fhirPractitioners = new List<Hl7.Fhir.Model.Practitioner>();
+            var fhirPractitioners = new List<Practitioner>();
             foreach (var practitionerData in allPractitionerData)
             {
                 var fhirPatient = FhirConverter.ConvertToFhirPractitioner(practitionerData);
@@ -83,5 +86,8 @@ namespace SHGAPI.Controllers
 
             return Content(jsonArray, "application/fhir+json");
         }
+
+
+
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\bin\Debug\net8.0\DataAccess Layer.deps.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\bin\Debug\net8.0\DataAccess Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\bin\Debug\net8.0\DataAccess Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.AssemblyInfo.cs
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.sourcelink.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\refint\DataAccess Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.pdb
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\ref\DataAccess Layer.dll
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\bin\Debug\net8.0\DataAccess Layer.runtimeconfig.json
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\DataAccess Layer\obj\Debug\net8.0\DataAccess Layer.genruntimeconfig.cache

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg\\shg\\shg\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1DB9CD-E881-4227-8610-B4C270386B8A}|SHG\\SHG.csproj|solutionrelative:shg\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Program.cs",
-              "RelativeDocumentMoniker": "SHG\\Program.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Program.cs",
-              "RelativeToolTip": "SHG\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T11:19:10.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "SHG\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\UserRole.cs",
-              "RelativeToolTip": "SHG\\Models\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T09:13:29.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SHG\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\User.cs",
-              "RelativeToolTip": "SHG\\Models\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T08:42:45.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PatientData.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\PatientData.cs",
-              "RelativeDocumentMoniker": "SHG\\Models\\PatientData.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\PatientData.cs",
-              "RelativeToolTip": "SHG\\Models\\PatientData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:30:40.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "SHG\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "SHG\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwEYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:28:30.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FHIRConverter.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\FHIRConverter.cs",
               "RelativeDocumentMoniker": "SHG\\FHIRConverter.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\FHIRConverter.cs",
               "RelativeToolTip": "SHG\\FHIRConverter.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwEgAAAAaAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:27:07.604Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Program.cs",
+              "RelativeDocumentMoniker": "SHG\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Program.cs",
+              "RelativeToolTip": "SHG\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:24:56.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientData.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\PatientData.cs",
+              "RelativeDocumentMoniker": "SHG\\Models\\PatientData.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\PatientData.cs",
+              "RelativeToolTip": "SHG\\Models\\PatientData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:18:46.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\appsettings.json",
+              "RelativeDocumentMoniker": "SHG\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\appsettings.json",
+              "RelativeToolTip": "SHG\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T04:52:27.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SHG\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SHG\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:32:30.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SHG\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Models\\User.cs",
+              "RelativeToolTip": "SHG\\Models\\User.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAQwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:00:59.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "SHG\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG\\SHG\\SHG\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "SHG\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:28:30.756Z",
               "EditorCaption": ""
             }
           ]

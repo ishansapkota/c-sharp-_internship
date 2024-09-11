@@ -1,4 +1,5 @@
 ﻿using Hl7.Fhir.Model;
+using SHG.DTO;
 using SHG.Models;
 
 public class FhirConverter
@@ -58,18 +59,20 @@ public class FhirConverter
         var practitioner = new Practitioner
         {
             Id = Convert.ToString(data.Id),
-            Name = new List<HumanName>
+            /*Name = new List<HumanName>
             {
                 new HumanName
                 {
-                    Family = data.LastName,
-                    Given =  new List<string>
+                    FamilyElement = new FhirString
                     {
-                         data.FirstName
+                        Value = data.LastName
+                    },
+                    UseElement = new Code<HumanName.NameUse>
+                    {
+                        Value = HumanName.NameUse.Official
                     }
                 }
-            },
-
+            },*/
             Active = null,
             Telecom = new List<ContactPoint>
             {
@@ -83,16 +86,9 @@ public class FhirConverter
                      System= ContactPoint.ContactPointSystem.Email,
                     Value= data.Email
                 }
-            },
-            Gender = null,
-            BirthDate = null,
-            Photo = null,
-            Qualification = null,
-            Communication = null
-
+            }
         };
 
         return practitioner;
     }
-
 }

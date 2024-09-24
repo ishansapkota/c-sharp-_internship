@@ -139,12 +139,47 @@ namespace Infrastructure_Layer
             return diagnosisreport;
         }
 
-        public Medication ConvertToFhirMedication(Medication meds)
+        public Medication ConvertToFhirMedication(MedicationData meds)
         {
-            var patient = dbContext.Patients.FirstOrDefaultAsync
+            var patient = dbContext.Patients.FirstOrDefaultAsync(m => m.Id == meds.PatientId);
+            string dosage = meds.Dosage;
+            int i = 0;
+            while(i<dosage.Length && char.IsDigit(dosage[i]))
+            {
+                i++;
+            }
+            int numberPart = Convert.ToInt16(dosage.Substring(0, i));
+            string unitPart = dosage.Substring(i);
+            var medication = new Medication
+            {
+                Id = Convert.ToString(meds.Id),
+                Ingredient = new List<Medication.IngredientComponent>
+                {
+                    new Medication.IngredientComponent
+                    {
+                        Strength = new Ratio
+                        {
+                            Numerator = new Quantity
+                            {
+                                Value = numberPart,
+                                System = unitPart
+                            }
+                        }
+                    }
+                },
 
+                Form = new CodeableConcept
+                { 
+                    Coding = new List<Coding>
+                    {
+                        new Coding
+                        {
+                            Display = meds.Type
+                        }
+                    }
+                }
+            };
+            return medication;
         }
-
-
     }
 }

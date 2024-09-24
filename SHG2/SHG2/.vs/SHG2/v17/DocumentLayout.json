@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\",
+  "WorkspaceRootPath": "D:\\c-sharp-_internship\\SHG2\\SHG2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA7A1077-A948-4431-8591-2631DDFD110D}|Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\infrastructure layer\\fhirconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA7A1077-A948-4431-8591-2631DDFD110D}|Infrastructure Layer\\Infrastructure Layer.csproj|d:\\c-sharp-_internship\\shg2\\shg2\\infrastructure layer\\fhirconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA7A1077-A948-4431-8591-2631DDFD110D}|Infrastructure Layer\\Infrastructure Layer.csproj|solutionrelative:infrastructure layer\\fhirconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58F15890-0C4D-4BB1-9AFF-96394F17FFCC}|SHG2\\SHG2.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\shg2\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58F15890-0C4D-4BB1-9AFF-96394F17FFCC}|SHG2\\SHG2.csproj|d:\\c-sharp-_internship\\shg2\\shg2\\shg2\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F15890-0C4D-4BB1-9AFF-96394F17FFCC}|SHG2\\SHG2.csproj|solutionrelative:shg2\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\dataaccess layer\\models\\encounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\models\\encounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\dataaccess layer\\models\\confirmdiagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\models\\confirmdiagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\dataaccess layer\\models\\complient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EEB8EF8-B826-4A41-B02D-2DB7B549D65B}|DataAccess Layer\\DataAccess Layer.csproj|solutionrelative:dataaccess layer\\models\\complient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F15890-0C4D-4BB1-9AFF-96394F17FFCC}|SHG2\\SHG2.csproj|c:\\users\\percoidit\\source\\repos\\c-sharp-_internship\\shg2\\shg2\\shg2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{58F15890-0C4D-4BB1-9AFF-96394F17FFCC}|SHG2\\SHG2.csproj|solutionrelative:shg2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Encounter.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\Encounter.cs",
-              "RelativeDocumentMoniker": "DataAccess Layer\\Models\\Encounter.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\Encounter.cs",
-              "RelativeToolTip": "DataAccess Layer\\Models\\Encounter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "FhirConverterService.cs",
+              "DocumentMoniker": "D:\\c-sharp-_internship\\SHG2\\SHG2\\Infrastructure Layer\\FhirConverterService.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\FhirConverterService.cs",
+              "ToolTip": "D:\\c-sharp-_internship\\SHG2\\SHG2\\Infrastructure Layer\\FhirConverterService.cs",
+              "RelativeToolTip": "Infrastructure Layer\\FhirConverterService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T09:19:46.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfirmDiagnosis.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\ConfirmDiagnosis.cs",
-              "RelativeDocumentMoniker": "DataAccess Layer\\Models\\ConfirmDiagnosis.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\ConfirmDiagnosis.cs",
-              "RelativeToolTip": "DataAccess Layer\\Models\\ConfirmDiagnosis.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T09:13:40.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Complient.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\Complient.cs",
-              "RelativeDocumentMoniker": "DataAccess Layer\\Models\\Complient.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\Models\\Complient.cs",
-              "RelativeToolTip": "DataAccess Layer\\Models\\Complient.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T09:06:13.967Z",
+              "WhenOpened": "2024-09-17T08:26:06.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\Controllers\\PatientController.cs",
+              "DocumentMoniker": "D:\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "SHG2\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\Controllers\\PatientController.cs",
               "RelativeToolTip": "SHG2\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAgwGcAAAA0AAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAUwJIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:19:46.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FhirConverterService.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\Infrastructure Layer\\FhirConverterService.cs",
-              "RelativeDocumentMoniker": "Infrastructure Layer\\FhirConverterService.cs",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\Infrastructure Layer\\FhirConverterService.cs",
-              "RelativeToolTip": "Infrastructure Layer\\FhirConverterService.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAwwI8AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:16:30.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\appsettings.json",
-              "RelativeDocumentMoniker": "SHG2\\appsettings.json",
-              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\SHG2\\appsettings.json",
-              "RelativeToolTip": "SHG2\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-11T04:52:45.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T08:25:59.038Z"
             }
           ]
         }

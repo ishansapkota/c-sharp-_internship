@@ -2642,19 +2642,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PERCOIDIT\\.nuget\\packages\\": {}
+    "C:\\Users\\ishan.s\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\DataAccess Layer.csproj",
+      "projectUniqueName": "D:\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\DataAccess Layer.csproj",
       "projectName": "DataAccess Layer",
-      "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\DataAccess Layer.csproj",
-      "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\obj\\",
+      "projectPath": "D:\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\DataAccess Layer.csproj",
+      "packagesPath": "C:\\Users\\ishan.s\\.nuget\\packages\\",
+      "outputPath": "D:\\c-sharp-_internship\\SHG2\\SHG2\\DataAccess Layer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ishan.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

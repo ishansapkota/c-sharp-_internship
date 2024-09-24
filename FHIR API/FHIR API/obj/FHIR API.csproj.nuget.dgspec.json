@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj": {}
+    "D:\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj": {
+    "D:\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj",
+        "projectUniqueName": "D:\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj",
         "projectName": "FHIR API",
-        "projectPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj",
-        "packagesPath": "C:\\Users\\PERCOIDIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDIT\\source\\repos\\c-sharp-_internship\\FHIR API\\FHIR API\\obj\\",
+        "projectPath": "D:\\c-sharp-_internship\\FHIR API\\FHIR API\\FHIR API.csproj",
+        "packagesPath": "C:\\Users\\ishan.s\\.nuget\\packages\\",
+        "outputPath": "D:\\c-sharp-_internship\\FHIR API\\FHIR API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PERCOIDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ishan.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

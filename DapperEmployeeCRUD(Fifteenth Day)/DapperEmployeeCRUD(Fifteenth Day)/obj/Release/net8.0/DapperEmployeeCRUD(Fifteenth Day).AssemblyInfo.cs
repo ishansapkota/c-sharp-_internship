@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DapperEmployeeCRUD(Fifteenth Day)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02cae6bdb030b8d0833796666385f0ecf0ef4346")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65db51c5f4d84bc7888285ba5c79a7b112f751a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DapperEmployeeCRUD(Fifteenth Day)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DapperEmployeeCRUD(Fifteenth Day)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

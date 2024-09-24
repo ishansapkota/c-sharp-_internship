@@ -673,8 +673,6 @@ return StatusCode(500, new { Message = ex.Message });
                         if (patientEntry.Resource != null)
                         {
                             Patient patient = (Patient)patientEntry.Resource;
-
-
                             string address = "";
                             string line = "";
                             if (patient.Address != null && patient.Address.Count > 0)
@@ -881,7 +879,24 @@ return StatusCode(500, new { Message = ex.Message });
                                         if (relationshipCode != null)
                                         {
                                             var relationshipcodeValue = relationshipCode.FirstOrDefault()?.Code;
-                                            if (relationshipcodeValue != null)
+
+                                            relationship = relationshipcodeValue switch
+                                            {
+                                                "BP" => "Billing Contact Person",
+                                                "CP" => "Contact Person",
+                                                "EP" => "Emergency Contact Person",
+                                                "PR" => "Person Preparing Referral",
+                                                "E" => "Employer",
+                                                "C" => "Contact",
+                                                "F" => "Federal Agency",
+                                                "I" => "Insurance Company",
+                                                "N" => "Next-of-Kin",
+                                                "S" => "State Agency",
+                                                "U" => "Unknown",
+                                                _ => "Not Specified"
+
+                                            };
+                                            /*if (relationshipcodeValue != null)
                                             {
                                                 if (relationshipcodeValue == "BP")
                                                 {
@@ -930,7 +945,7 @@ return StatusCode(500, new { Message = ex.Message });
                                                 else
                                                 {
                                                     relationship = "NOT SPECIFIED";
-                                                }
+                                                }*/
                                                 contactRelationship = relationship;
 
                                             }
@@ -1014,7 +1029,7 @@ return StatusCode(500, new { Message = ex.Message });
                                     }
 
                                 }
-                            }
+                            
 
 
                             //COMMUNICATION

@@ -116,7 +116,37 @@ namespace SHG2.Controllers
             string jsonArray = "[" + string.Join(",", serializedDiagnosticReports) + "]";
 
             return Content(jsonArray, "application/fhir+json");
+        }
 
+        [HttpGet("medication")]
+        public async Task<IActionResult> GetAllMedications()
+        {
+            var fhirConverterObj = new FhirConverter(_context);
+            var allMedications = await _context.Medications.ToListAsync();
+            // var allencountersData = await _context.Encounters.ToListAsync();
+            if (allMedications == null || allMedications.Count == 0)
+            {
+                return NotFound();
+            }
+
+            var fhirMedications = new List<Medication>();
+            foreach (var medication in allMedications)
+            {
+                var fhirMedication = fhirConverterObj.ConvertToFhirMedication(medication);
+                fhirMedications.Add(fhirMedication);
+            }
+
+            var fhirJsonSerializer = new FhirJsonSerializer();
+            var serializedMedications = new List<string>();
+
+            foreach (var med in fhirMedications)
+            {
+                var serializedMedication = fhirJsonSerializer.SerializeToString(med);
+                serializedMedications.Add(serializedMedication);
+            }
+            string jsonArray = "[" + string.Join(",", serializedMedications) + "]";
+
+            return Content(jsonArray, "application/fhir+json");
         }
     }
 }

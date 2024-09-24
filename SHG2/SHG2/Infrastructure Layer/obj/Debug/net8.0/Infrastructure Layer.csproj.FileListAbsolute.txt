@@ -16,3 +16,21 @@ C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\Infrastructure Lay
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.pdb
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.genruntimeconfig.cache
 C:\Users\PERCOIDIT\source\repos\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\ref\Infrastructure Layer.dll
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\Infrastructure Layer.deps.json
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\Infrastructure Layer.runtimeconfig.json
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\Infrastructure Layer.dll
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\Infrastructure Layer.pdb
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\DataAccess Layer.dll
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\bin\Debug\net8.0\DataAccess Layer.pdb
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.csproj.AssemblyReference.cache
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.AssemblyInfoInputs.cache
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.AssemblyInfo.cs
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.csproj.CoreCompileInputs.cache
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.sourcelink.json
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastr.E4F4A019.Up2Date
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.dll
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\refint\Infrastructure Layer.dll
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.pdb
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.genruntimeconfig.cache
+D:\c-sharp-_internship\SHG2\SHG2\Infrastructure Layer\obj\Debug\net8.0\ref\Infrastructure Layer.dll
